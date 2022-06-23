@@ -5,3 +5,4 @@
 *.strFEM
 *.rhl
 *.log
+.DS_Store
