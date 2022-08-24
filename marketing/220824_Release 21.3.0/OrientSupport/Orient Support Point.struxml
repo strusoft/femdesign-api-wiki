@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" start_time="1970-01-01T00:00:00.000" end_time="2022-08-24T09:20:50.760" struxml_version="01.00.000" source_software="FEM-Design 18.00.004" guid="a41543c6-f3c8-4a52-91e8-f10840243686" country="S" convertid="00000000-0000-0000-0000-000000000000" standard="EC" xmlns="urn:strusoft">
+  <entities>
+    <loads />
+    <supports>
+      <point_support last_change="2022-08-24T09:20:50.753" guid="d4494024-6411-4713-9836-a1ff83902e2c" action="added" name="S.22" stage="1">
+        <group>
+          <local_x x="0.41380294430118403" y="-0.91036647746260491" z="0" />
+          <local_y x="0.91036647746260491" y="0.41380294430118403" z="-0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="-7.6666666666666661" y="-3.6666666666666661" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.754" guid="42e0d6a7-e820-4440-a135-a38613c42f26" action="added" name="S.23" stage="1">
+        <group>
+          <local_x x="0.57549879881382615" y="-0.81780262445399576" z="0" />
+          <local_y x="0.81780262445399576" y="0.57549879881382615" z="-0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="-5.107854166666665" y="-8.307854166666667" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.754" guid="13fe7ae1-e254-4b43-8a4e-3dd7a8554b1e" action="added" name="S.24" stage="1">
+        <group>
+          <local_x x="0.83437443676299583" y="-0.55119805812106559" z="0" />
+          <local_y x="0.55119805812106559" y="0.83437443676299583" z="-0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="-1.5061666666666664" y="-11.906166666666666" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.754" guid="2c429d91-08bc-42a5-8745-9059dcb83b63" action="added" name="S.25" stage="1">
+        <group>
+          <local_x x="0.98430739032950709" y="-0.17646235106309677" z="0" />
+          <local_y x="0.17646235106309677" y="0.98430739032950709" z="-0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="3.583333333333333" y="-13.859458333333333" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.754" guid="0fd2ab9d-3335-4fbb-9455-5439a6401954" action="added" name="S.26" stage="1">
+        <group>
+          <local_x x="0.97922483252876225" y="0.20277753169179674" z="0" />
+          <local_y x="-0.20277753169179674" y="0.97922483252876225" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="9.0733333333333341" y="-13.849333333333334" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.754" guid="59d16d70-f822-4eb8-812c-2a7e0603e6cf" action="added" name="S.27" stage="1">
+        <group>
+          <local_x x="0.73042405609256034" y="0.68299392258005653" z="0" />
+          <local_y x="-0.68299392258005653" y="0.73042405609256034" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="13.23697916666667" y="-11.739583333333336" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.754" guid="4c12cbfa-0bea-4051-b69c-45d8ea38c0b3" action="added" name="S.28" stage="1">
+        <group>
+          <local_x x="0.55155777595458755" y="0.834136691306664" z="0" />
+          <local_y x="-0.834136691306664" y="0.55155777595458755" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="15.979166666666666" y="-8.2363333333333344" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.754" guid="c4bf2273-a40e-408a-bb42-feb1298a4fa4" action="added" name="S.29" stage="1">
+        <group>
+          <local_x x="0.68700757658731881" y="0.72665025267429673" z="0" />
+          <local_y x="-0.72665025267429673" y="0.68700757658731881" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="18.60660416666666" y="-4.7583958333333349" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.754" guid="1d94bf8e-3cdc-4a4c-81ba-b443c94e950f" action="added" name="S.30" stage="1">
+        <group>
+          <local_x x="0.72291967718206507" y="0.69093208084657554" z="0" />
+          <local_y x="-0.69093208084657554" y="0.72291967718206507" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="21.662666666666667" y="-1.8373333333333319" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="d969651f-169d-414d-aba2-ab09dca2f77c" action="added" name="S.31" stage="1">
+        <group>
+          <local_x x="0.53416573661414135" y="0.845379776093249" z="0" />
+          <local_y x="-0.845379776093249" y="0.53416573661414135" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="24.435166666666671" y="1.4072500000000003" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="bdd979e4-d5b5-468b-9254-bc4e3af4817a" action="added" name="S.32" stage="1">
+        <group>
+          <local_x x="0.15596257347301143" y="0.987762965329069" z="0" />
+          <local_y x="-0.987762965329069" y="0.15596257347301143" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="26.041666666666668" y="5.4999999999999991" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="c416541b-ecb3-452e-9c47-6321e7644057" action="added" name="S.33" stage="1">
+        <group>
+          <local_x x="-0.49063570042784477" y="0.87136479700850811" z="0" />
+          <local_y x="-0.87136479700850811" y="-0.49063570042784477" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="25.420666666666666" y="9.5927500000000041" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="8ed565cb-9eef-4577-b3ef-7b18473c405c" action="added" name="S.34" stage="1">
+        <group>
+          <local_x x="-0.90865929745080842" y="0.41753835890394969" z="0" />
+          <local_y x="-0.41753835890394969" y="-0.90865929745080842" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="21.830666666666669" y="12.623999999999999" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="f938a84c-db3b-466e-8d8b-6d4fb8adf5b4" action="added" name="S.35" stage="1">
+        <group>
+          <local_x x="-0.99959668957749992" y="-0.028398207438204478" z="0" />
+          <local_y x="0.028398207438204478" y="-0.99959668957749992" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="16.499854166666665" y="13.711312500000002" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="2dff8095-cf29-4f69-adcd-71e802c6263f" action="added" name="S.36" stage="1">
+        <group>
+          <local_x x="-0.88931076596828307" y="-0.4573033583223568" z="0" />
+          <local_y x="0.4573033583223568" y="-0.88931076596828307" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="11.201666666666672" y="12.196500000000004" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="fa16c5ed-38f3-4d63-ba93-30b845bd07c5" action="added" name="S.37" stage="1">
+        <group>
+          <local_x x="-0.88679390997434782" y="-0.46216508006599594" z="0" />
+          <local_y x="0.46216508006599594" y="-0.88679390997434782" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="6.088541666666667" y="9.3046875" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="caec0b54-c0c9-4710-80a2-41eee410082d" action="added" name="S.38" stage="1">
+        <group>
+          <local_x x="-0.98820407911502661" y="-0.15314273740671452" z="0" />
+          <local_y x="0.15314273740671452" y="-0.98820407911502661" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="0.31466666666666276" y="7.405333333333334" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="6614e749-5f84-4f57-aca5-2ffbc8223038" action="added" name="S.39" stage="1">
+        <group>
+          <local_x x="-0.98917201362938845" y="-0.14676078308724419" z="0" />
+          <local_y x="0.14676078308724419" y="-0.98917201362938845" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="-5.5274583333333291" y="6.7449583333333338" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.755" guid="bd5bc8d6-ff80-4898-a464-91fd83cb127c" action="added" name="S.40" stage="1">
+        <group>
+          <local_x x="-0.54330635605110444" y="-0.83953451595182826" z="0" />
+          <local_y x="0.83953451595182826" y="-0.54330635605110444" z="0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="-9.169666666666668" y="5.0993333333333331" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.756" guid="25c0b79c-31db-4755-9b2e-9e321eb43a8f" action="added" name="S.41" stage="1">
+        <group>
+          <local_x x="0.21630191243413821" y="-0.97632652462039282" z="0" />
+          <local_y x="0.97632652462039282" y="0.21630191243413821" z="-0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="-9.4407916666666676" y="1.2428333333333406" z="0" />
+      </point_support>
+      <point_support last_change="2022-08-24T09:20:50.756" guid="7fe09038-1a36-4472-970c-c5f28d229726" action="added" name="S.42" stage="1">
+        <group>
+          <local_x x="0.41380294430118403" y="-0.9103664774626048" z="0" />
+          <local_y x="0.9103664774626048" y="0.41380294430118403" z="-0" />
+          <rigidity xsi:type="RigidityDataType3" detach="">
+            <motions x_neg="10000000000" x_pos="10000000000" y_neg="0" y_pos="0" z_neg="10000000000" z_pos="10000000000" />
+            <rotations x_neg="0" x_pos="0" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000" />
+          </rigidity>
+        </group>
+        <position x="-7.666666666666667" y="-3.6666666666666639" z="0" />
+      </point_support>
+    </supports>
+    <advanced-fem />
+  </entities>
+  <sections />
+  <materials />
+  <reinforcing_materials />
+  <line_connection_types />
+  <ptc_strand_types />
+  <end />
+</database>
