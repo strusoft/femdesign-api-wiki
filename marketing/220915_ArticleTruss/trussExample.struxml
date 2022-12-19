@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" start_time="1970-01-01T00:00:00.000" end_time="2022-10-17T15:33:54.562" struxml_version="01.00.000" source_software="FEM-Design 18.00.004" guid="7cb4402c-6bb7-4aa6-8c0c-18a2f1586514" country="S" convertid="00000000-0000-0000-0000-000000000000" standard="EC" xmlns="urn:strusoft">
+<database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" start_time="1970-01-01T00:00:00.000" end_time="2022-11-29T10:04:50.211" struxml_version="01.00.000" source_software="FEM-Design API SDK 21.6.0.0" guid="1a2982c7-71b2-42fe-87b9-be9e5cad5a89" country="S" convertid="00000000-0000-0000-0000-000000000000" standard="EC" xmlns="urn:strusoft">
   <entities>
-    <bar last_change="2022-10-17T15:33:54.551" guid="d612b277-de6b-4bbc-a339-521ac291fbfe" action="added" name="B.59" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.551" guid="f9f190a2-c60a-4cf4-9f4e-c6894bd8f157" action="added" ecc_calc="true" name="B.59.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="f17cc5dd-b56b-4754-b45a-a1a55f455d7b">
+    <foundations />
+    <bar last_change="2022-11-29T10:04:50.114" guid="894e0d95-57a7-4439-849b-4f3ef5d3d352" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.114" guid="b86a6373-c674-4d54-bae2-f1042e8d0024" action="added" name="B.3.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="701196a7-543b-4b50-aa04-0784d05e96e4">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="0" y="0" z="2.7" />
           <point x="3" y="0" z="0" />
@@ -22,8 +23,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.551" guid="91a8af72-9769-42c8-8bd9-c665ccc2dc43" action="added" name="B.60" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.551" guid="3d08483c-3c8b-49a8-baba-9fe5657b12ce" action="added" ecc_calc="true" name="B.60.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="32e423e4-79e2-4684-a5aa-2f1ff4fffa0f">
+    <bar last_change="2022-11-29T10:04:50.115" guid="2c5e2860-b9e4-4bf2-8634-ceebdb242260" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.115" guid="0b7393bb-fcbe-4b9b-9a20-bbb777675335" action="added" name="B.4.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="9c4eeb1b-1d56-422d-a375-35822843fb02">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="6" y="0" z="2.7" />
           <point x="9" y="0" z="0" />
@@ -43,8 +44,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.551" guid="126f819e-3d6b-4c4a-8e19-c81be1c7dc84" action="added" name="B.61" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.551" guid="141cc2ce-2420-44d2-85c7-9b730373d8db" action="added" ecc_calc="true" name="B.61.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="1ca81ee8-9208-4a3b-8e11-7b0b507084d9">
+    <bar last_change="2022-11-29T10:04:50.115" guid="e47e8841-3d5f-4f36-8c3a-938cf8d3ea59" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.115" guid="969e8f63-60ac-46bb-80e0-fce0e7bbb23e" action="added" name="B.5.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="59d714b1-2826-47ba-95bf-11269fb1debb">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="12" y="0" z="2.7" />
           <point x="14.999999999999998" y="0" z="0" />
@@ -64,8 +65,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.551" guid="e7df385e-d20e-4697-8f6e-d45072ae5266" action="added" name="B.62" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.551" guid="231762b3-f54c-4869-a46f-ea134ecfb78b" action="added" ecc_calc="true" name="B.62.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="7e84f63b-147e-4af1-bb75-c416b63deaee">
+    <bar last_change="2022-11-29T10:04:50.115" guid="a1aa9bc8-a930-4d1e-8663-bcf7e4131acb" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.115" guid="963ece55-8096-40e8-9817-4aa2ce35580c" action="added" name="B.6.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="109799b6-9eda-4b5b-a18d-fbff2e584e12">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="3" y="0" z="0" />
           <point x="6" y="0" z="2.7" />
@@ -85,8 +86,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.551" guid="ac739d11-d53d-4949-ba1f-a8bced0b71d6" action="added" name="B.63" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.551" guid="0c7c9842-3424-40b6-b1bc-a46fe4e15c58" action="added" ecc_calc="true" name="B.63.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="0c582e30-9656-4f28-9703-0b8eff9c123d">
+    <bar last_change="2022-11-29T10:04:50.115" guid="7d13fd95-628c-4316-8bc3-4cdc5c75229d" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.115" guid="49eef007-c969-49f8-9c16-483b22d3778d" action="added" name="B.7.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="f440667d-8903-4afd-ac3c-189b27398a85">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="9" y="0" z="0" />
           <point x="12" y="0" z="2.7" />
@@ -106,8 +107,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.551" guid="8b725f96-b2d8-44d0-8f6d-4d2e0cb17c8e" action="added" name="B.64" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.551" guid="57af37d2-6163-4518-bf75-d7ddbff7da46" action="added" ecc_calc="true" name="B.64.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="af99d935-1001-431c-9ecc-cc98e31d668c">
+    <bar last_change="2022-11-29T10:04:50.115" guid="387a2c0d-7c3a-43b5-89dc-52cb11143a3e" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.115" guid="bc7c0296-a421-4343-b49e-fe2d066a40e8" action="added" name="B.8.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="09ef6194-1d25-4519-984e-9ff0e1679991">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="14.999999999999998" y="0" z="0" />
           <point x="18" y="0" z="2.7" />
@@ -127,8 +128,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.550" guid="1ebb8a50-26a9-49b8-8949-343a1f613b83" action="added" name="B.57" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.550" guid="d465a899-78d5-4f38-9bf7-9b499328f3d1" action="added" ecc_calc="true" name="B.57.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="d374906c-83d7-4156-a6c0-e26ce944c97c">
+    <bar last_change="2022-11-29T10:04:50.108" guid="ccb127bd-b69b-498d-b529-268785b94a8a" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.109" guid="67c0f837-7f48-4a80-b204-d8b6f6801360" action="added" name="B.1.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="919c9ef2-ded2-4f00-983c-2f77237f8fc8">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="0" y="0" z="0" />
           <point x="18" y="0" z="0" />
@@ -148,8 +149,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.552" guid="9af7b7a1-0b77-4397-a389-0fd7657b24c1" action="added" name="B.65" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.552" guid="b327a3c9-a021-45df-8948-9c645acb4b0e" action="added" ecc_calc="true" name="B.65.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="e871931d-1e06-4357-a45e-6ac86fe412cb">
+    <bar last_change="2022-11-29T10:04:50.116" guid="e5ec3d29-c7d7-4016-8bee-3994ca5d45b3" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.116" guid="35029c86-0fa0-4380-98cc-ef345c4556cd" action="added" name="B.9.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="aca59833-80d6-4f63-9b53-db82bee7d5b8">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="0" y="0" z="0" />
           <point x="0" y="0" z="2.7" />
@@ -169,8 +170,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.550" guid="ddd808e9-0e46-4d97-b89f-fcc543290c67" action="added" name="B.58" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.550" guid="bd1aaaaf-6fd9-48dc-b362-eb0017a0caea" action="added" ecc_calc="true" name="B.58.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="0ddf2e03-db9b-41db-b91d-97b967388928">
+    <bar last_change="2022-11-29T10:04:50.114" guid="19415dfc-ca54-45bc-8c27-413fd5c26379" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.114" guid="ce04dff9-b137-4a1a-a099-cb1544bc3cd6" action="added" name="B.2.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="1d692da3-d8cb-4eac-8f87-7825a90e7188">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="0" y="0" z="2.7" />
           <point x="18" y="0" z="2.7" />
@@ -190,8 +191,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.552" guid="296ef897-f5cc-4d0b-9e15-81749c9bebd0" action="added" name="B.66" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.552" guid="aca43cae-3004-41cd-bf61-36334f6ff1a8" action="added" ecc_calc="true" name="B.66.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="cbf1cf8b-33b3-4bc8-aab1-af6ab9d3bb17">
+    <bar last_change="2022-11-29T10:04:50.116" guid="cf73a11c-bd75-41a1-bf2a-3ae859624b97" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.116" guid="0317b378-3a08-462b-ac0a-d9603b0ab6c9" action="added" name="B.10.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="1e03df1b-0c72-465e-a34c-cae2a7dab5f5">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="3" y="0" z="0" />
           <point x="3" y="0" z="2.7" />
@@ -211,8 +212,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.552" guid="270826f8-d77e-40a1-ba58-c7a2c7581662" action="added" name="B.67" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.552" guid="55d21849-3dbd-41dc-b85b-3a3d0807addc" action="added" ecc_calc="true" name="B.67.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="47fa1582-04b1-4718-8df2-17448b327d05">
+    <bar last_change="2022-11-29T10:04:50.116" guid="98a5f204-c0fd-43cf-92d3-20a49df89e80" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.116" guid="242d2dde-f3f0-4931-bf0c-11afc1e80514" action="added" name="B.11.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="ee82ca1b-198d-4da1-baf5-72c76f0218cc">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="6" y="0" z="0" />
           <point x="6" y="0" z="2.7" />
@@ -232,8 +233,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.552" guid="fcd00203-4bda-463e-86ed-d916b99c13c6" action="added" name="B.68" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.552" guid="aef3e302-9767-45fe-b9da-15b63cd5e5d5" action="added" ecc_calc="true" name="B.68.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="af843033-cb7a-4c11-a3de-0d95afcb8ee4">
+    <bar last_change="2022-11-29T10:04:50.116" guid="65cdbe6b-a6de-44bf-8a6b-d53458c69a68" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.116" guid="826425c2-7357-4df9-8710-32902b0a57c9" action="added" name="B.12.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="a8bb7f12-5b53-4105-9cb0-b8871e3c89f2">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="9" y="0" z="0" />
           <point x="9" y="0" z="2.7" />
@@ -253,8 +254,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.552" guid="15d14361-acba-4003-bf6f-d7ce191a5c03" action="added" name="B.69" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.552" guid="e2b203e6-95e2-49ea-86a1-30ddd062d1fa" action="added" ecc_calc="true" name="B.69.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="d14848ed-dc3f-4a6c-9fcd-227bdd7a42ff">
+    <bar last_change="2022-11-29T10:04:50.116" guid="a377e838-4d8f-41e3-8a37-41b70902d67c" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.116" guid="6b2e7ef9-1b40-4fa4-b936-f1a49a152cc5" action="added" name="B.13.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="43420146-b54e-4bc1-8c02-92afd3c224b0">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="12" y="0" z="0" />
           <point x="12" y="0" z="2.7" />
@@ -274,8 +275,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.552" guid="29126894-ddbe-406a-b204-57c643f0651f" action="added" name="B.70" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.552" guid="697faad0-67c2-4fa5-a0d1-d50559839e75" action="added" ecc_calc="true" name="B.70.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="3d3f5c4c-2acc-44dd-94ee-7fc75828cce6">
+    <bar last_change="2022-11-29T10:04:50.116" guid="13c31b71-034d-4f64-87a1-3606908f29b1" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.116" guid="fa6024c1-9f98-44c7-9bf7-de7b8466661e" action="added" name="B.14.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="7f74010e-fa28-47f0-a1c5-5e92726e7703">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="14.999999999999998" y="0" z="0" />
           <point x="14.999999999999998" y="0" z="2.7" />
@@ -295,8 +296,8 @@
       </bar_part>
       <end />
     </bar>
-    <bar last_change="2022-10-17T15:33:54.552" guid="71882f0e-f3ce-4be7-a6a5-70d48706889c" action="added" name="B.71" maxforce="0" stage="1" tensions_plasticity="false" tension="0" type="beam" compressions_plasticity="false">
-      <bar_part last_change="2022-10-17T15:33:54.552" guid="57bda783-09e5-4fd6-9d9e-d73bd01e5953" action="added" ecc_calc="true" name="B.71.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" complex_section="846e6197-8119-4ca0-8e0b-aedcca98888e">
+    <bar last_change="2022-11-29T10:04:50.116" guid="3a418416-1d51-427b-b516-02a94c3a4905" action="added" stage="1" maxforce="0" type="beam" tension="0" compressions_plasticity="false" tensions_plasticity="false">
+      <bar_part last_change="2022-11-29T10:04:50.116" guid="f972a957-1975-4c73-a1b8-37c4fac8c774" action="added" name="B.15.1" stage="1" complex_material="2c06b5e4-d35f-475f-aa33-d1b4e994d9fb" ecc_calc="true" complex_section="1738ee3c-2b5d-4cb3-88df-927601df0e9a">
         <curve start_angle="0" end_angle="0" type="line" radius="0">
           <point x="18" y="0" z="0" />
           <point x="18" y="0" z="2.7" />
@@ -317,63 +318,63 @@
       <end />
     </bar>
     <loads>
-      <point_load last_change="2022-10-17T15:33:54.554" guid="fd9f3475-f029-425f-92bc-1f963eb50bc3" action="added" load_case="cd276311-4547-4961-b17c-b6004fe142fb" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.156" guid="8c391f30-8bd8-465c-a583-35b2db1c7684" action="added" load_case="082deabb-4199-4271-b7d3-6b655b0a2b5f" load_type="force">
         <direction x="-0" y="-0" z="-1" />
         <load x="0" y="0" z="0" val="10" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.554" guid="7a40f72e-e102-4f74-aa85-efe26408b58d" action="added" load_case="cd276311-4547-4961-b17c-b6004fe142fb" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.157" guid="cb3e8d70-eaad-40c5-8800-1cd1ddcd8a54" action="added" load_case="082deabb-4199-4271-b7d3-6b655b0a2b5f" load_type="force">
         <direction x="-0" y="-0" z="-1" />
         <load x="3" y="0" z="0" val="10" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.554" guid="8034b3c3-9a71-4fe2-973c-67683c881f3d" action="added" load_case="cd276311-4547-4961-b17c-b6004fe142fb" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.157" guid="47f65d0c-6549-443c-b92e-9d3e441ef80f" action="added" load_case="082deabb-4199-4271-b7d3-6b655b0a2b5f" load_type="force">
         <direction x="-0" y="-0" z="-1" />
         <load x="6" y="0" z="0" val="10" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.555" guid="54f16b22-2594-4151-a7f6-25a95d06d432" action="added" load_case="cd276311-4547-4961-b17c-b6004fe142fb" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.157" guid="d2012a91-c6a3-4705-8425-580e558f1e3e" action="added" load_case="082deabb-4199-4271-b7d3-6b655b0a2b5f" load_type="force">
         <direction x="-0" y="-0" z="-1" />
         <load x="9" y="0" z="0" val="10" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.555" guid="c96f68e1-5343-4890-8332-b8d9108ae1a2" action="added" load_case="cd276311-4547-4961-b17c-b6004fe142fb" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.157" guid="671846e6-eab1-44ed-bbb2-967c800656d0" action="added" load_case="082deabb-4199-4271-b7d3-6b655b0a2b5f" load_type="force">
         <direction x="-0" y="-0" z="-1" />
         <load x="12" y="0" z="0" val="10" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.555" guid="a0071d51-76a0-4231-96b7-86133d3bbcd4" action="added" load_case="cd276311-4547-4961-b17c-b6004fe142fb" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.157" guid="0bdf2b33-9fda-4091-86f0-856958f5ce6f" action="added" load_case="082deabb-4199-4271-b7d3-6b655b0a2b5f" load_type="force">
         <direction x="-0" y="-0" z="-1" />
         <load x="14.999999999999998" y="0" z="0" val="10" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.555" guid="40da4378-7a77-4d7e-9522-439d6093cf1c" action="added" load_case="cd276311-4547-4961-b17c-b6004fe142fb" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.157" guid="12171e83-d57d-4703-aa54-dd9dcc9d7935" action="added" load_case="082deabb-4199-4271-b7d3-6b655b0a2b5f" load_type="force">
         <direction x="-0" y="-0" z="-1" />
         <load x="18" y="0" z="0" val="10" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.555" guid="3a5a4baf-2fc8-426f-890d-27957b8a634e" action="added" load_case="74369ad3-ebc4-43f9-bb60-5be9e4422e89" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.159" guid="a8c853ac-6295-4e5b-b914-c0b36d986c34" action="added" load_case="684b06fb-a150-418c-9a32-acf9814146f5" load_type="force">
         <direction x="0" y="0" z="1" />
         <load x="0" y="0" z="0" val="4" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.555" guid="27ab85d6-9d4f-49d7-a00c-e1438688ba4e" action="added" load_case="74369ad3-ebc4-43f9-bb60-5be9e4422e89" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.159" guid="d8e7e53e-6125-454b-86e6-00bb1359cf6f" action="added" load_case="684b06fb-a150-418c-9a32-acf9814146f5" load_type="force">
         <direction x="0" y="0" z="1" />
         <load x="3" y="0" z="0" val="4" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.555" guid="8ba4bf0e-e2b5-49ac-8350-3147b43d9848" action="added" load_case="74369ad3-ebc4-43f9-bb60-5be9e4422e89" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.159" guid="c7c11746-f13b-4dcf-acab-7fd245509b33" action="added" load_case="684b06fb-a150-418c-9a32-acf9814146f5" load_type="force">
         <direction x="0" y="0" z="1" />
         <load x="6" y="0" z="0" val="4" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.555" guid="23db826a-fde3-4bb5-9d01-6916f88b5519" action="added" load_case="74369ad3-ebc4-43f9-bb60-5be9e4422e89" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.159" guid="0d697e2f-520e-4ea4-9e1d-1c43d611f1d6" action="added" load_case="684b06fb-a150-418c-9a32-acf9814146f5" load_type="force">
         <direction x="0" y="0" z="1" />
         <load x="9" y="0" z="0" val="4" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.556" guid="8c47c2a5-490d-40c3-be9c-1a0a46241d21" action="added" load_case="74369ad3-ebc4-43f9-bb60-5be9e4422e89" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.159" guid="9ceeaf53-19dd-4bd9-8f8a-d847eaef2835" action="added" load_case="684b06fb-a150-418c-9a32-acf9814146f5" load_type="force">
         <direction x="0" y="0" z="1" />
         <load x="12" y="0" z="0" val="4" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.556" guid="63beddef-525b-4d94-a487-14ee61509695" action="added" load_case="74369ad3-ebc4-43f9-bb60-5be9e4422e89" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.159" guid="a3ca9609-4ece-4fd3-b585-799a71574c8d" action="added" load_case="684b06fb-a150-418c-9a32-acf9814146f5" load_type="force">
         <direction x="0" y="0" z="1" />
         <load x="14.999999999999998" y="0" z="0" val="4" />
       </point_load>
-      <point_load last_change="2022-10-17T15:33:54.556" guid="8366afef-b5de-41c5-a557-d386a821395f" action="added" load_case="74369ad3-ebc4-43f9-bb60-5be9e4422e89" load_type="force">
+      <point_load last_change="2022-11-29T10:04:50.159" guid="802d1a9a-9f0d-4c25-8b6b-03322a7b3596" action="added" load_case="684b06fb-a150-418c-9a32-acf9814146f5" load_type="force">
         <direction x="0" y="0" z="1" />
         <load x="18" y="0" z="0" val="4" />
       </point_load>
-      <line_load last_change="2022-10-17T15:33:54.556" guid="bda91d05-8047-4178-9fb4-87ddfbf54524" action="added" load_case="cd276311-4547-4961-b17c-b6004fe142fb" load_type="force" load_dir="constant" load_projection="false">
+      <line_load last_change="2022-11-29T10:04:50.168" guid="62832140-baac-4a4d-8e35-0853f3f07fb5" action="added" load_case="082deabb-4199-4271-b7d3-6b655b0a2b5f" load_type="force" load_dir="constant" load_projection="false">
         <edge start_angle="0" end_angle="0" type="line" radius="0">
           <point x="0" y="0" z="2.6999999999999997" />
           <point x="18" y="0" z="2.6999999999999997" />
@@ -385,27 +386,27 @@
         <load x="0" y="0" z="2.6999999999999997" val="2" />
         <load x="18" y="0" z="2.6999999999999997" val="2" />
       </line_load>
-      <load_case last_change="2022-10-17T15:33:54.554" guid="15e8e308-37da-4f10-a55e-d0eec6f39a2b" action="added" name="DL" type="dead_load" duration_class="permanent" />
-      <load_case last_change="2022-10-17T15:33:54.554" guid="cd276311-4547-4961-b17c-b6004fe142fb" action="added" name="IL" type="static" duration_class="permanent" />
-      <load_case last_change="2022-10-17T15:33:54.554" guid="74369ad3-ebc4-43f9-bb60-5be9e4422e89" action="added" name="WIND" type="static" duration_class="permanent" />
-      <load_combination last_change="2022-10-17T15:33:54.557" guid="caf84eaa-0171-42a3-9243-d134e650c24b" action="added" name="COMBO_1" type="ultimate_ordinary">
-        <load_case guid="15e8e308-37da-4f10-a55e-d0eec6f39a2b" gamma="1.35" />
-        <load_case guid="cd276311-4547-4961-b17c-b6004fe142fb" gamma="1.35" />
-        <load_case guid="74369ad3-ebc4-43f9-bb60-5be9e4422e89" gamma="1" />
+      <load_case last_change="2022-11-29T10:04:50.155" guid="bce631e5-7def-4139-9cc6-383861e34b18" action="added" name="DL" type="dead_load" duration_class="permanent" />
+      <load_case last_change="2022-11-29T10:04:50.155" guid="082deabb-4199-4271-b7d3-6b655b0a2b5f" action="added" name="IL" type="static" duration_class="permanent" />
+      <load_case last_change="2022-11-29T10:04:50.155" guid="684b06fb-a150-418c-9a32-acf9814146f5" action="added" name="WIND" type="static" duration_class="permanent" />
+      <load_combination last_change="2022-11-29T10:04:50.182" guid="615afc58-1c77-4410-8f44-7d5cf261e186" action="added" name="COMBO_1" type="ultimate_ordinary">
+        <load_case gamma="1.35" guid="bce631e5-7def-4139-9cc6-383861e34b18" />
+        <load_case gamma="1.35" guid="082deabb-4199-4271-b7d3-6b655b0a2b5f" />
+        <load_case gamma="1" guid="684b06fb-a150-418c-9a32-acf9814146f5" />
       </load_combination>
-      <load_combination last_change="2022-10-17T15:33:54.557" guid="42407340-cf6e-4de9-9b1d-0edeab2f5e33" action="added" name="COMBO_2" type="ultimate_ordinary">
-        <load_case guid="15e8e308-37da-4f10-a55e-d0eec6f39a2b" gamma="1" />
-        <load_case guid="cd276311-4547-4961-b17c-b6004fe142fb" gamma="1.5" />
-        <load_case guid="74369ad3-ebc4-43f9-bb60-5be9e4422e89" gamma="1.5" />
+      <load_combination last_change="2022-11-29T10:04:50.185" guid="357777ed-3786-4ffc-a367-b6630dc49205" action="added" name="COMBO_2" type="ultimate_ordinary">
+        <load_case gamma="1" guid="bce631e5-7def-4139-9cc6-383861e34b18" />
+        <load_case gamma="1.5" guid="082deabb-4199-4271-b7d3-6b655b0a2b5f" />
+        <load_case gamma="1.5" guid="684b06fb-a150-418c-9a32-acf9814146f5" />
       </load_combination>
-      <load_combination last_change="2022-10-17T15:33:54.557" guid="3ac318ed-688d-4b49-bb45-1ae9c923902f" action="added" name="COMBO_3" type="ultimate_ordinary">
-        <load_case guid="15e8e308-37da-4f10-a55e-d0eec6f39a2b" gamma="1" />
-        <load_case guid="cd276311-4547-4961-b17c-b6004fe142fb" gamma="0" />
-        <load_case guid="74369ad3-ebc4-43f9-bb60-5be9e4422e89" gamma="0" />
+      <load_combination last_change="2022-11-29T10:04:50.185" guid="69d9d679-65cb-469d-b32e-2972d3e0c6a4" action="added" name="COMBO_3" type="ultimate_ordinary">
+        <load_case gamma="1" guid="bce631e5-7def-4139-9cc6-383861e34b18" />
+        <load_case gamma="0" guid="082deabb-4199-4271-b7d3-6b655b0a2b5f" />
+        <load_case gamma="0" guid="684b06fb-a150-418c-9a32-acf9814146f5" />
       </load_combination>
     </loads>
     <supports>
-      <point_support last_change="2022-10-17T15:33:54.553" guid="e8e77679-bb13-48c6-99fc-47d7c0c13795" action="added" name="S.11" stage="1">
+      <point_support last_change="2022-11-29T10:04:50.123" guid="79258a98-0afb-4955-9613-83183d0bc338" action="added" name="S.1" stage="1">
         <group>
           <local_x x="1" y="0" z="0" />
           <local_y x="0" y="1" z="0" />
@@ -416,7 +417,7 @@
         </group>
         <position x="0" y="0" z="0" />
       </point_support>
-      <point_support last_change="2022-10-17T15:33:54.553" guid="12afddb7-8b35-416d-9c8c-2f3ab6c16b00" action="added" name="S.12" stage="1">
+      <point_support last_change="2022-11-29T10:04:50.124" guid="a265cf16-0c7f-4b8a-b9d7-4af59dcd1a5f" action="added" name="S.2" stage="1">
         <group>
           <local_x x="1" y="0" z="0" />
           <local_y x="0" y="1" z="0" />
@@ -609,7 +610,7 @@
       </region_group>
       <end />
     </section>
-    <complex_section last_change="2022-10-17T15:33:54.551" guid="f17cc5dd-b56b-4754-b45a-a1a55f455d7b" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.114" guid="701196a7-543b-4b50-aa04-0784d05e96e4" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -619,7 +620,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.551" guid="32e423e4-79e2-4684-a5aa-2f1ff4fffa0f" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.115" guid="9c4eeb1b-1d56-422d-a375-35822843fb02" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -629,7 +630,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.551" guid="1ca81ee8-9208-4a3b-8e11-7b0b507084d9" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.115" guid="59d714b1-2826-47ba-95bf-11269fb1debb" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -639,7 +640,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.551" guid="7e84f63b-147e-4af1-bb75-c416b63deaee" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.115" guid="109799b6-9eda-4b5b-a18d-fbff2e584e12" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -649,7 +650,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.551" guid="0c582e30-9656-4f28-9703-0b8eff9c123d" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.115" guid="f440667d-8903-4afd-ac3c-189b27398a85" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -659,7 +660,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.551" guid="af99d935-1001-431c-9ecc-cc98e31d668c" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.115" guid="09ef6194-1d25-4519-984e-9ff0e1679991" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -669,7 +670,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.550" guid="d374906c-83d7-4156-a6c0-e26ce944c97c" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.112" guid="919c9ef2-ded2-4f00-983c-2f77237f8fc8" action="added">
       <section pos="0" guid="75208ef1-3e11-437a-97be-ae9d707a859e">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -679,7 +680,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.552" guid="e871931d-1e06-4357-a45e-6ac86fe412cb" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.116" guid="aca59833-80d6-4f63-9b53-db82bee7d5b8" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -689,7 +690,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.550" guid="0ddf2e03-db9b-41db-b91d-97b967388928" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.114" guid="1d692da3-d8cb-4eac-8f87-7825a90e7188" action="added">
       <section pos="0" guid="75208ef1-3e11-437a-97be-ae9d707a859e">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -699,7 +700,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.552" guid="cbf1cf8b-33b3-4bc8-aab1-af6ab9d3bb17" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.116" guid="1e03df1b-0c72-465e-a34c-cae2a7dab5f5" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -709,7 +710,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.552" guid="47fa1582-04b1-4718-8df2-17448b327d05" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.116" guid="ee82ca1b-198d-4da1-baf5-72c76f0218cc" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -719,7 +720,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.552" guid="af843033-cb7a-4c11-a3de-0d95afcb8ee4" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.116" guid="a8bb7f12-5b53-4105-9cb0-b8871e3c89f2" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -729,7 +730,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.552" guid="d14848ed-dc3f-4a6c-9fcd-227bdd7a42ff" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.116" guid="43420146-b54e-4bc1-8c02-92afd3c224b0" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -739,7 +740,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.552" guid="3d3f5c4c-2acc-44dd-94ee-7fc75828cce6" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.116" guid="7f74010e-fa28-47f0-a1c5-5e92726e7703" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
@@ -749,7 +750,7 @@
         <end />
       </section>
     </complex_section>
-    <complex_section last_change="2022-10-17T15:33:54.552" guid="846e6197-8119-4ca0-8e0b-aedcca98888e" action="added">
+    <complex_section last_change="2022-11-29T10:04:50.116" guid="1738ee3c-2b5d-4cb3-88df-927601df0e9a" action="added">
       <section pos="0" guid="aebb72d7-e837-4b87-b347-061c88b356d0">
         <ecc x="-0" y="-0" z="-0" />
         <end />
