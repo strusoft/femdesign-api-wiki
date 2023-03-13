@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- (c) StruSoft 2012-2021, http://www.strusoft.com -->
+<database struxml_version="01.00.000" source_software="FEM-Design 22.00.001" start_time="1970-01-01T00:00:00.000" end_time="2023-02-14T13:21:41.000" guid="d2cee2d3-fe9d-429f-a9c6-bfee665eb9e2" convertid="00000000-0000-0000-0000-000000000000" standard="EC" country="common" xmlns="urn:strusoft">
+	<entities>
+		<slab name="P.1" guid="3f872018-8fd8-4e58-a2b8-ace2c2abcf9f" last_change="2023-02-14T13:18:13.000" action="added" type="plate">
+			<slab_part guid="cfb8e170-a595-4d4f-ab7f-a822308aa590" last_change="2023-02-14T13:18:13.000" action="added" name="P.1.1" complex_material="89ff96d4-aa81-4ab2-beb9-29d492faaf69" alignment="center" align_offset="0" ortho_alfa="0" ortho_ratio="1">
+				<contour>
+					<edge type="line">
+						<point x="13.6557429576197" y="26.6810151218638" z="0"></point>
+						<point x="30.035621666267" y="26.6810151218638" z="0"></point>
+						<normal x="0" y="1" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="30.035621666267" y="26.6810151218638" z="0"></point>
+						<point x="30.035621666267" y="43.4593904164516" z="0"></point>
+						<normal x="-1" y="0" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="30.035621666267" y="43.4593904164516" z="0"></point>
+						<point x="13.6557429576197" y="43.4593904164516" z="0"></point>
+						<normal x="0" y="-1" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="13.6557429576197" y="43.4593904164516" z="0"></point>
+						<point x="13.6557429576197" y="26.6810151218638" z="0"></point>
+						<normal x="1" y="0" z="0"></normal>
+					</edge>
+				</contour>
+				<thickness x="13.6557429576197" y="26.6810151218638" z="0" val="0.2"></thickness>
+				<local_pos x="21.8456823119434" y="35.0702027691577" z="0"></local_pos>
+				<local_x x="1" y="0" z="0"></local_x>
+				<local_y x="0" y="1" z="0"></local_y>
+				<end></end>
+			</slab_part>
+			<end></end>
+		</slab>
+		<shell_buckling base_shell="cfb8e170-a595-4d4f-ab7f-a822308aa590" guid="45e103ee-2b5c-48f1-affb-99a77a53d52f" last_change="2023-02-14T13:18:17.000" action="added">
+			<direction x="1" y="0" z="0"></direction>
+			<contour>
+				<edge type="line">
+					<point x="13.6557429576197" y="26.6810151218638" z="0"></point>
+					<point x="30.035621666267" y="26.6810151218638" z="0"></point>
+					<normal x="0" y="1" z="0"></normal>
+				</edge>
+				<edge type="line">
+					<point x="30.035621666267" y="26.6810151218638" z="0"></point>
+					<point x="30.035621666267" y="43.4593904164516" z="0"></point>
+					<normal x="-1" y="0" z="0"></normal>
+				</edge>
+				<edge type="line">
+					<point x="30.035621666267" y="43.4593904164516" z="0"></point>
+					<point x="13.6557429576197" y="43.4593904164516" z="0"></point>
+					<normal x="0" y="-1" z="0"></normal>
+				</edge>
+				<edge type="line">
+					<point x="13.6557429576197" y="43.4593904164516" z="0"></point>
+					<point x="13.6557429576197" y="26.6810151218638" z="0"></point>
+					<normal x="1" y="0" z="0"></normal>
+				</edge>
+			</contour>
+		</shell_buckling>
+		<surface_reinforcement_parameters guid="8f1969d7-8abf-4f99-8b6f-5caafd695c70" last_change="2023-02-14T13:22:08.000" action="added">
+			<base_shell guid="cfb8e170-a595-4d4f-ab7f-a822308aa590"></base_shell>
+			<center x="0" y="0" z="0" polar_system="false"></center>
+			<x_direction x="1" y="0" z="0"></x_direction>
+			<y_direction x="0.866024791582963" y="0.50000106036256" z="0"></y_direction>
+		</surface_reinforcement_parameters>
+
+		<surface_reinforcement guid="a60a9c2f-3127-4e74-bdf3-cac0584065e3" last_change="2023-02-14T13:19:37.000" action="added">
+			<base_shell guid="cfb8e170-a595-4d4f-ab7f-a822308aa590"></base_shell>
+			<surface_reinforcement_parameters guid="8f1969d7-8abf-4f99-8b6f-5caafd695c70"></surface_reinforcement_parameters>
+			<straight face="top" direction="x" space="0.2" cover="0.02"></straight>
+			<wire diameter="0.01" reinforcing_material="f3bb4fa1-fc49-4024-991b-e03409456be1"></wire>
+			<region>
+				<contour>
+					<edge type="line">
+						<point x="16.3988337447452" y="31.9785688083612" z="0"></point>
+						<point x="22.7772145248982" y="31.9785688083612" z="0"></point>
+						<normal x="0" y="1" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="22.7772145248982" y="31.9785688083612" z="0"></point>
+						<point x="22.7772145248982" y="36.7300634781987" z="0"></point>
+						<normal x="-1" y="0" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="22.7772145248982" y="36.7300634781987" z="0"></point>
+						<point x="16.3988337447452" y="36.7300634781986" z="0"></point>
+						<normal x="0" y="-1" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="16.3988337447452" y="36.7300634781986" z="0"></point>
+						<point x="16.3988337447452" y="31.9785688083612" z="0"></point>
+						<normal x="1" y="0" z="0"></normal>
+					</edge>
+				</contour>
+			</region>
+		</surface_reinforcement>
+		<surface_reinforcement guid="ac8a9e2c-a092-4c06-b731-37fd977903cc" last_change="2023-02-14T13:19:52.000" action="added">
+			<base_shell guid="cfb8e170-a595-4d4f-ab7f-a822308aa590"></base_shell>
+			<surface_reinforcement_parameters guid="8f1969d7-8abf-4f99-8b6f-5caafd695c70"></surface_reinforcement_parameters>
+			<straight face="bottom" direction="x" space="0.2" cover="0.02"></straight>
+			<wire diameter="0.01" reinforcing_material="f3bb4fa1-fc49-4024-991b-e03409456be1"></wire>
+			<region>
+				<contour>
+					<edge type="line">
+						<point x="16.3988337447452" y="31.9785688083612" z="0"></point>
+						<point x="19.7218641561041" y="35.3747682257507" z="0"></point>
+						<normal x="-0.714764438009083" y="0.699365282350761" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="19.7218641561041" y="35.3747682257507" z="0"></point>
+						<point x="24.2809039098382" y="30.9139501504983" z="0"></point>
+						<normal x="0.699365282350761" y="0.714764438009084" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="24.2809039098382" y="30.9139501504983" z="0"></point>
+						<point x="20.9578734984792" y="27.5177507331088" z="0"></point>
+						<normal x="0.714764438009085" y="-0.699365282350759" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="20.9578734984792" y="27.5177507331088" z="0"></point>
+						<point x="16.3988337447452" y="31.9785688083612" z="0"></point>
+						<normal x="-0.69936528235076" y="-0.714764438009084" z="0"></normal>
+					</edge>
+				</contour>
+			</region>
+		</surface_reinforcement>
+		<surface_reinforcement guid="79a65b00-6460-466a-8fbd-d7df3198a430" last_change="2023-02-14T13:20:44.000" action="added">
+			<base_shell guid="cfb8e170-a595-4d4f-ab7f-a822308aa590"></base_shell>
+			<surface_reinforcement_parameters guid="8f1969d7-8abf-4f99-8b6f-5caafd695c70"></surface_reinforcement_parameters>
+			<straight face="bottom" direction="x" space="0.2" cover="0.02"></straight>
+			<wire diameter="0.01" reinforcing_material="f3bb4fa1-fc49-4024-991b-e03409456be1"></wire>
+			<region>
+				<contour>
+					<edge type="line">
+						<point x="24.1923004714408" y="38.8202148589435" z="0"></point>
+						<point x="27.9088721357785" y="38.1647930094589" z="0"></point>
+						<normal x="0.173671303647889" y="0.984803674997836" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="27.9088721357785" y="38.1647930094589" z="0"></point>
+						<point x="28.8814850881643" y="32.5327502170239" z="0"></point>
+						<normal x="0.98541405346039" y="0.170173861808339" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="28.8814850881643" y="32.5327502170239" z="0"></point>
+						<point x="23.3284314612517" y="36.0621615766604" z="0"></point>
+						<normal x="-0.536404843226617" y="-0.843960807243457" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="23.3284314612517" y="36.0621615766604" z="0"></point>
+						<point x="24.1923004714408" y="38.8202148589435" z="0"></point>
+						<normal x="-0.954284994352331" y="0.298898226080335" z="0"></normal>
+					</edge>
+				</contour>
+			</region>
+		</surface_reinforcement>
+		<surface_reinforcement guid="c4eac4d5-7bbe-44a9-b930-67f86dacfb27" last_change="2023-02-14T13:20:44.000" action="added">
+			<base_shell guid="cfb8e170-a595-4d4f-ab7f-a822308aa590"></base_shell>
+			<surface_reinforcement_parameters guid="8f1969d7-8abf-4f99-8b6f-5caafd695c70"></surface_reinforcement_parameters>
+			<straight face="top" direction="x" space="0.2" cover="0.02"></straight>
+			<wire diameter="0.01" reinforcing_material="f3bb4fa1-fc49-4024-991b-e03409456be1"></wire>
+			<region>
+				<contour>
+					<edge type="line">
+						<point x="24.1923004714408" y="38.8202148589435" z="0"></point>
+						<point x="23.3284314612517" y="36.0621615766604" z="0"></point>
+						<normal x="0.954284994352331" y="-0.298898226080335" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="23.3284314612517" y="36.0621615766604" z="0"></point>
+						<point x="28.8814850881643" y="32.5327502170239" z="0"></point>
+						<normal x="0.536404843226617" y="0.843960807243457" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="28.8814850881643" y="32.5327502170239" z="0"></point>
+						<point x="27.9088721357785" y="38.1647930094589" z="0"></point>
+						<normal x="-0.98541405346039" y="-0.170173861808339" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="27.9088721357785" y="38.1647930094589" z="0"></point>
+						<point x="24.1923004714408" y="38.8202148589435" z="0"></point>
+						<normal x="-0.173671303647889" y="-0.984803674997836" z="0"></normal>
+					</edge>
+				</contour>
+			</region>
+		</surface_reinforcement>
+		<surface_reinforcement guid="74317cb0-dcfe-4092-87c8-35cdd327fc0a" last_change="2023-02-14T13:21:41.000" action="added" colour="00B0FF">
+			<base_shell guid="cfb8e170-a595-4d4f-ab7f-a822308aa590"></base_shell>
+			<surface_reinforcement_parameters guid="8f1969d7-8abf-4f99-8b6f-5caafd695c70"></surface_reinforcement_parameters>
+			<straight face="bottom" direction="y" space="0.2" cover="0.02"></straight>
+			<wire diameter="0.01" reinforcing_material="f3bb4fa1-fc49-4024-991b-e03409456be1"></wire>
+			<region>
+				<contour>
+					<edge type="line">
+						<point x="16.479994681904" y="40.091828190342" z="0"></point>
+						<point x="25.7872367737304" y="40.091828190342" z="0"></point>
+						<normal x="0" y="1" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="25.7872367737304" y="40.091828190342" z="0"></point>
+						<point x="25.7872367737304" y="32.850028864099" z="0"></point>
+						<normal x="1" y="0" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="25.7872367737304" y="32.850028864099" z="0"></point>
+						<point x="16.479994681904" y="32.850028864099" z="0"></point>
+						<normal x="0" y="-1" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="16.479994681904" y="32.850028864099" z="0"></point>
+						<point x="16.479994681904" y="40.091828190342" z="0"></point>
+						<normal x="-1" y="0" z="0"></normal>
+					</edge>
+				</contour>
+			</region>
+		</surface_reinforcement>
+		<surface_reinforcement guid="39bb66d4-737c-41ff-86f4-8cba6decf78f" last_change="2023-02-14T13:21:41.000" action="added" colour="00B0FF">
+			<base_shell guid="cfb8e170-a595-4d4f-ab7f-a822308aa590"></base_shell>
+			<surface_reinforcement_parameters guid="8f1969d7-8abf-4f99-8b6f-5caafd695c70"></surface_reinforcement_parameters>
+			<straight face="top" direction="y" space="0.2" cover="0.02"></straight>
+			<wire diameter="0.01" reinforcing_material="f3bb4fa1-fc49-4024-991b-e03409456be1"></wire>
+			<region>
+				<contour>
+					<edge type="line">
+						<point x="16.479994681904" y="40.091828190342" z="0"></point>
+						<point x="16.479994681904" y="32.850028864099" z="0"></point>
+						<normal x="1" y="0" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="16.479994681904" y="32.850028864099" z="0"></point>
+						<point x="25.7872367737304" y="32.850028864099" z="0"></point>
+						<normal x="0" y="1" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="25.7872367737304" y="32.850028864099" z="0"></point>
+						<point x="25.7872367737304" y="40.091828190342" z="0"></point>
+						<normal x="-1" y="0" z="0"></normal>
+					</edge>
+					<edge type="line">
+						<point x="25.7872367737304" y="40.091828190342" z="0"></point>
+						<point x="16.479994681904" y="40.091828190342" z="0"></point>
+						<normal x="0" y="-1" z="0"></normal>
+					</edge>
+				</contour>
+			</region>
+		</surface_reinforcement>
+	</entities>
+	<materials>
+		<material guid="89ff96d4-aa81-4ab2-beb9-29d492faaf69" last_change="2023-02-14T13:07:45.000" action="added" standard="EC" country="common" name="C25/30">
+			<concrete mass="2.54842" E_0="31000000" E_1="31000000" E_2="31000000" nu_0="0.2" nu_1="0.2" nu_2="0.2" alfa_0="0.00001" alfa_1="0.00001" alfa_2="0.00001" G_0="12916666.6666667" G_1="12916666.6666667" G_2="12916666.6666667" Fck="25" Fctk="1.8" Fctm="2.6" Ecm="31000" gammaC_0="1.5" gammaC_1="1.2" gammaCE="1.2" gammaS_0="1.15" gammaS_1="1" alfaCc="1" alfaCt="1" Fcd_0="16.6666666666667" Fcd_1="20.8333333333333" Fctd_0="1.2" Fctd_1="1.5" Ecd_0="20666.6666666667" Ecd_1="25833.3333333333" Epsc2="0.002" Epscu2="0.0035" Epsc3="0.00175" Epscu3="0.0035" environment="0" creep="0" shrinkage="0" nu="0.2" alfa="0.00001"></concrete>
+		</material>
+	</materials>
+	<reinforcing_materials>
+		<material guid="f3bb4fa1-fc49-4024-991b-e03409456be1" last_change="1970-01-01T00:00:00.000" action="added" standard="EC" country="common" name="B500A">
+			<reinforcing_steel fyk="500" Es="200000" Epsilon_uk="0.025" Epsilon_ud="0.0225" k="1.05"></reinforcing_steel>
+		</material>
+	</reinforcing_materials>
+	<end></end>
+</database>
