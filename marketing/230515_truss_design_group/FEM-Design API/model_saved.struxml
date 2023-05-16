@@ -1,0 +1,1390 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- (c) StruSoft 2012-2021, http://www.strusoft.com -->
+<database struxml_version="01.00.000" source_software="FEM-Design 22.00.002" start_time="1970-01-01T00:00:00.000" end_time="2023-05-15T08:43:24.000" guid="9b335cbc-b9f7-4a86-9c1e-544831207fdc" convertid="00000000-0000-0000-0000-000000000000" standard="EC" country="S" xmlns="urn:strusoft">
+	<entities>
+		<bar name="B.1" type="beam" guid="6cb1866d-77cc-4323-bc6c-81582088630e" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="9f374bde-ee7e-47e5-93ad-1533fa7533e7" last_change="2023-05-15T08:43:24.000" action="added" name="B.1.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="12ff7f9f-8fef-4a5a-a21f-90680f2dedc7" ecc_calc="true">
+				<curve type="line">
+					<point x="0" y="0" z="3"></point>
+					<point x="2.4" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.2" type="beam" guid="f2d1d5da-f096-409a-8bd6-6ad9e3997368" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="90a879b4-ad07-48c7-8e7e-66cb52dafacd" last_change="2023-05-15T08:43:24.000" action="added" name="B.2.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="4291300a-bde4-4186-aa72-67f394a23cd6" ecc_calc="true">
+				<curve type="line">
+					<point x="2.4" y="0" z="3"></point>
+					<point x="4.8" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.3" type="beam" guid="22783734-3fb8-454b-a5d1-5417d3937496" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="03b4ed8f-0512-45f6-9fc8-51ff417173e4" last_change="2023-05-15T08:43:24.000" action="added" name="B.3.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="562f4963-0e6b-4649-a427-dfd1d2a27fbf" ecc_calc="true">
+				<curve type="line">
+					<point x="4.8" y="0" z="3"></point>
+					<point x="7.2" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.4" type="beam" guid="34db0ff4-0ea2-4490-993b-f88b25297f95" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="8c246eb4-af6d-412e-a914-10d6fb2d5a10" last_change="2023-05-15T08:43:24.000" action="added" name="B.4.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="49d632b1-fd9d-43b4-93e7-59b52d5477c2" ecc_calc="true">
+				<curve type="line">
+					<point x="7.2" y="0" z="3"></point>
+					<point x="9.6" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.5" type="beam" guid="8636119d-f9cb-4e42-a5e1-0d2896b7a7d5" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="e9b20093-c624-47f8-b533-fad503614505" last_change="2023-05-15T08:43:24.000" action="added" name="B.5.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="dc6f1fae-a411-4b36-9150-5ceaa87c92e5" ecc_calc="true">
+				<curve type="line">
+					<point x="9.6" y="0" z="3"></point>
+					<point x="12" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.6" type="beam" guid="6e7e021d-20ce-473b-b4a2-e929f3365485" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="89d115d4-6a71-4cec-ae5e-2099031aa72a" last_change="2023-05-15T08:43:24.000" action="added" name="B.6.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="5f8c9654-8b05-48d6-bbf3-b8a05855e525" ecc_calc="true">
+				<curve type="line">
+					<point x="12" y="0" z="3"></point>
+					<point x="14.4" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.7" type="beam" guid="ca2eb3ce-9423-469a-a563-b3cb9749e866" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="9a8c726a-4c93-41dd-93d4-3ece5e3fbfff" last_change="2023-05-15T08:43:24.000" action="added" name="B.7.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="7da93132-dc51-4803-87e7-105b8024c2bd" ecc_calc="true">
+				<curve type="line">
+					<point x="14.4" y="0" z="3"></point>
+					<point x="16.8" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.8" type="beam" guid="4b1d99df-5420-4181-9a1d-55f590d3a619" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="4ece354c-d8b4-4598-8870-478fe06e5f23" last_change="2023-05-15T08:43:24.000" action="added" name="B.8.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="f912f7e9-9cca-4bf0-81c9-69059f6f52f7" ecc_calc="true">
+				<curve type="line">
+					<point x="16.8" y="0" z="3"></point>
+					<point x="19.2" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.9" type="beam" guid="e1356703-326a-46eb-a51c-6005616b88ef" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="68632bc7-e436-49f5-aba7-094489e8e6e1" last_change="2023-05-15T08:43:24.000" action="added" name="B.9.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="5840b4dc-8b2b-44d5-945d-ad88401a44f9" ecc_calc="true">
+				<curve type="line">
+					<point x="19.2" y="0" z="3"></point>
+					<point x="21.6" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.10" type="beam" guid="a0cf6229-ffde-4f03-9ac7-716884579a82" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="5f147d62-afe5-4a04-994b-fbcf53ab0406" last_change="2023-05-15T08:43:24.000" action="added" name="B.10.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="244b43a4-3197-4b27-8a02-1e32d8c8d5e6" ecc_calc="true">
+				<curve type="line">
+					<point x="21.6" y="0" z="3"></point>
+					<point x="24" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.11" type="beam" guid="bb7f4c56-fefa-4495-9f5f-ba9550c9f961" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="afe332e6-bb5d-4aeb-9a1f-ddc0f1c375cf" last_change="2023-05-15T08:43:24.000" action="added" name="B.11.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="99671a51-5974-46b9-ae02-5750b089d389" ecc_calc="true">
+				<curve type="line">
+					<point x="0" y="0" z="0"></point>
+					<point x="2.4" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.12" type="beam" guid="942f4384-3d14-48c3-961b-55603e3dbc3b" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="30e58126-4335-4717-89f1-02ffa57445b5" last_change="2023-05-15T08:43:24.000" action="added" name="B.12.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="fd31bd31-3ba7-4d55-a624-c844e222da31" ecc_calc="true">
+				<curve type="line">
+					<point x="2.4" y="0" z="0"></point>
+					<point x="4.8" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.13" type="beam" guid="4023e1ce-b140-4d57-8f05-01f44eb09abb" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="1334f983-c9f1-45e0-9dc8-3ab68317c0b0" last_change="2023-05-15T08:43:24.000" action="added" name="B.13.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="ef877cb0-fdee-4698-9fe5-24032be8e406" ecc_calc="true">
+				<curve type="line">
+					<point x="4.8" y="0" z="0"></point>
+					<point x="7.2" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.14" type="beam" guid="9d74d61f-3914-4ff8-b514-055742cfee5f" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="0fd377b7-9753-4eb0-ae9e-e4a1a2f0d0ab" last_change="2023-05-15T08:43:24.000" action="added" name="B.14.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="e14c921f-e9d4-4086-98ae-63dd67d85b8c" ecc_calc="true">
+				<curve type="line">
+					<point x="7.2" y="0" z="0"></point>
+					<point x="9.6" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.15" type="beam" guid="397cd487-ddf9-4bb2-a504-33c09d35d32b" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="27a846b7-884f-4993-9ff6-7f3d235f1d23" last_change="2023-05-15T08:43:24.000" action="added" name="B.15.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="a657a530-1255-4bd7-a349-df690ddea285" ecc_calc="true">
+				<curve type="line">
+					<point x="9.6" y="0" z="0"></point>
+					<point x="12" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.16" type="beam" guid="952c3313-007a-4b54-8b17-60f134a32ebd" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="b8ea8d7b-438c-4cf2-ae23-9ff971944292" last_change="2023-05-15T08:43:24.000" action="added" name="B.16.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="1e6b05a8-2239-4fde-8974-4e174c58b3ef" ecc_calc="true">
+				<curve type="line">
+					<point x="12" y="0" z="0"></point>
+					<point x="14.4" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.17" type="beam" guid="701aa095-d3a4-49b0-b8e9-b45f3a861942" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="8fb3fb41-a778-4b0a-bc63-77df098be34f" last_change="2023-05-15T08:43:24.000" action="added" name="B.17.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="354c8e0a-beae-4c16-a8b9-40d6d820fc42" ecc_calc="true">
+				<curve type="line">
+					<point x="14.4" y="0" z="0"></point>
+					<point x="16.8" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.18" type="beam" guid="c80bc5d7-6b6a-475c-852e-61f2f1961793" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="f79f9670-d4e6-4597-bbd1-eb27915632b1" last_change="2023-05-15T08:43:24.000" action="added" name="B.18.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="d4b4ea47-8f2c-4db7-a14f-a3832c361aea" ecc_calc="true">
+				<curve type="line">
+					<point x="16.8" y="0" z="0"></point>
+					<point x="19.2" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.19" type="beam" guid="2baa25f0-2e01-48ea-b37e-a96a5f0bee7e" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="9b7287fe-1001-4198-9432-89f89daeae64" last_change="2023-05-15T08:43:24.000" action="added" name="B.19.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="51fc856c-804c-4c4d-8ae1-8727f8ed2419" ecc_calc="true">
+				<curve type="line">
+					<point x="19.2" y="0" z="0"></point>
+					<point x="21.6" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.20" type="beam" guid="4be332b1-5e76-40b2-83b8-346eb55d55f1" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="47f42e23-199f-4f63-a75c-01753c75a228" last_change="2023-05-15T08:43:24.000" action="added" name="B.20.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="2b36ebc5-87e9-42bc-abe3-81b41ff1944e" ecc_calc="true">
+				<curve type="line">
+					<point x="21.6" y="0" z="0"></point>
+					<point x="24" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="false">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.21" type="beam" guid="060ce061-66fd-4f83-9fe7-918a8f51f5b4" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="178f64db-5e7b-4ca6-97ac-cca23b2852ba" last_change="2023-05-15T08:43:24.000" action="added" name="B.21.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="2dccbbd6-9755-45b6-a410-ac44a8b4b5dd" ecc_calc="true">
+				<curve type="line">
+					<point x="2.4" y="0" z="3"></point>
+					<point x="0" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.22" type="beam" guid="ae1f27fc-61e7-47ef-90e8-0f3993a4bbf9" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="145556ea-ed59-4e88-9e91-cfcac4a00f62" last_change="2023-05-15T08:43:24.000" action="added" name="B.22.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="73bed488-fcd8-42ff-b884-c67cb38ce785" ecc_calc="true">
+				<curve type="line">
+					<point x="4.8" y="0" z="3"></point>
+					<point x="2.4" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.23" type="beam" guid="f10a66c3-56c9-4fa7-9942-f5cfd7cddd28" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="4cb5e7d7-cdc3-4671-85b8-7752dcd40c8c" last_change="2023-05-15T08:43:24.000" action="added" name="B.23.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="9b023da8-eb72-4052-8727-7cd0a3d21a87" ecc_calc="true">
+				<curve type="line">
+					<point x="7.2" y="0" z="3"></point>
+					<point x="4.8" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.24" type="beam" guid="35dcccb8-6dcd-4732-aea1-750a10bc4198" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="c18a168a-bdc7-4bf0-be11-ec1758f20309" last_change="2023-05-15T08:43:24.000" action="added" name="B.24.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="0abc75d6-6c18-4547-b9fe-846625fb1212" ecc_calc="true">
+				<curve type="line">
+					<point x="9.6" y="0" z="3"></point>
+					<point x="7.2" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.25" type="beam" guid="ae026de6-487d-4d98-9a96-8448b43d5cd4" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="ed322b03-f2a5-44bd-afa1-5c7a0ae35a4c" last_change="2023-05-15T08:43:24.000" action="added" name="B.25.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="ada1b950-7589-447b-9df7-e35ae07e664a" ecc_calc="true">
+				<curve type="line">
+					<point x="12" y="0" z="3"></point>
+					<point x="9.6" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.26" type="beam" guid="e66bd290-91b1-4d44-899c-bb504efff9b5" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="3b6ba5cb-61ff-4e3f-84c3-167b687ac3f1" last_change="2023-05-15T08:43:24.000" action="added" name="B.26.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="77ed36e1-96cd-4181-a3fd-3ce2e5a79344" ecc_calc="true">
+				<curve type="line">
+					<point x="14.4" y="0" z="0"></point>
+					<point x="12" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.27" type="beam" guid="37ebecd9-28c3-41ee-9c14-ab5801285986" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="f07c99e5-7e7d-4c68-b1f6-c17ef396f163" last_change="2023-05-15T08:43:24.000" action="added" name="B.27.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="7000d5dc-11f8-4e8f-b460-a6636c681e5a" ecc_calc="true">
+				<curve type="line">
+					<point x="16.8" y="0" z="0"></point>
+					<point x="14.4" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.28" type="beam" guid="20a023f2-47f9-4ea3-a65d-d1f37c459019" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="a47da818-be1e-4331-a76b-1717ca666e53" last_change="2023-05-15T08:43:24.000" action="added" name="B.28.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="36f34df2-c3d2-43e0-bc34-25e86a7b1b3d" ecc_calc="true">
+				<curve type="line">
+					<point x="19.2" y="0" z="0"></point>
+					<point x="16.8" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.29" type="beam" guid="aabcd91a-a913-4483-b4fc-3f61476ba849" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="a33a69eb-ab84-4abd-a034-a7a8a1bbc617" last_change="2023-05-15T08:43:24.000" action="added" name="B.29.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="29d814d5-7fd7-4192-88d5-386f46514886" ecc_calc="true">
+				<curve type="line">
+					<point x="21.6" y="0" z="0"></point>
+					<point x="19.2" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.30" type="beam" guid="dfa086ae-185c-4a61-af1e-77635d4c075c" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="58450907-cd37-4592-b663-3eb9c1fb7042" last_change="2023-05-15T08:43:24.000" action="added" name="B.30.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="2d074078-bec9-477c-a7ee-c3f4730c04bd" ecc_calc="true">
+				<curve type="line">
+					<point x="24" y="0" z="0"></point>
+					<point x="21.6" y="0" z="3"></point>
+				</curve>
+				<local-y x="0" y="-1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.31" type="beam" guid="87c9f12c-9f67-4454-b223-8bd3431a38c5" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="2201f3a3-2b02-4a03-b06a-3ba87034b9fe" last_change="2023-05-15T08:43:24.000" action="added" name="B.31.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="af8b907c-d707-43ad-9395-d35c07899b4a" ecc_calc="true">
+				<curve type="line">
+					<point x="0" y="0" z="3"></point>
+					<point x="0" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.32" type="beam" guid="4ae41bfa-95b5-4c2a-b6b8-e4b733818a46" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="3537243d-facd-4413-8a74-2d14b601bbbf" last_change="2023-05-15T08:43:24.000" action="added" name="B.32.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="492ecfc1-192c-4fc8-959c-850c867fd2fe" ecc_calc="true">
+				<curve type="line">
+					<point x="2.4" y="0" z="3"></point>
+					<point x="2.4" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.33" type="beam" guid="96a4ecb2-65f7-46b5-bd53-bbfe69127996" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="b9767162-93b6-4054-8280-5fdc3f5353e8" last_change="2023-05-15T08:43:24.000" action="added" name="B.33.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="9f0d4bc4-08be-4c03-a0d6-2490f3d79509" ecc_calc="true">
+				<curve type="line">
+					<point x="4.8" y="0" z="3"></point>
+					<point x="4.8" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.34" type="beam" guid="39609c79-4eae-46a0-9982-db6eefd5bd34" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="d1f19781-c747-48f6-a480-3b3fc2395e4c" last_change="2023-05-15T08:43:24.000" action="added" name="B.34.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="27f14d20-4515-40e6-998f-d3baaae0c335" ecc_calc="true">
+				<curve type="line">
+					<point x="7.2" y="0" z="3"></point>
+					<point x="7.2" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.35" type="beam" guid="dcc85a69-ab37-4d4f-b578-f404279486ed" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="bb790bcd-be43-4350-82d2-b691d182f4ee" last_change="2023-05-15T08:43:24.000" action="added" name="B.35.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="4cb63d8e-d52b-4842-9332-ef6093d65bea" ecc_calc="true">
+				<curve type="line">
+					<point x="9.6" y="0" z="3"></point>
+					<point x="9.6" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.36" type="beam" guid="74697634-2151-4dcd-b03a-39b0e10aec6c" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="6e0bd6cb-fe38-4192-9844-502a40a40f74" last_change="2023-05-15T08:43:24.000" action="added" name="B.36.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="931472b1-45bd-4b0c-bfa0-729abe8ba2de" ecc_calc="true">
+				<curve type="line">
+					<point x="12" y="0" z="3"></point>
+					<point x="12" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.37" type="beam" guid="8e799d2e-0dc5-48cb-b5a6-fb690fe1739f" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="c522c65e-307a-484a-8a40-db79a9d9afba" last_change="2023-05-15T08:43:24.000" action="added" name="B.37.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="1feafba1-1d58-41af-8cf3-3ab9b18d870f" ecc_calc="true">
+				<curve type="line">
+					<point x="14.4" y="0" z="3"></point>
+					<point x="14.4" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.38" type="beam" guid="83b0a0e0-fcd1-40c3-b08f-22670c9dba73" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="4c0ca629-9fba-49b9-85e4-78121075d736" last_change="2023-05-15T08:43:24.000" action="added" name="B.38.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="47262202-9216-4981-9054-4826ebea121a" ecc_calc="true">
+				<curve type="line">
+					<point x="16.8" y="0" z="3"></point>
+					<point x="16.8" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.39" type="beam" guid="9f3d7304-f549-4f88-8cbb-721fd1c10031" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="ef41cde8-54e4-4968-a574-737b68241e27" last_change="2023-05-15T08:43:24.000" action="added" name="B.39.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="69d33bdb-3480-48b0-a0aa-a76ec1d3437c" ecc_calc="true">
+				<curve type="line">
+					<point x="19.2" y="0" z="3"></point>
+					<point x="19.2" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.40" type="beam" guid="592e1274-5cf9-4200-bb18-64ab37a6ed45" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="017e7ae4-c459-4d4a-b2a7-928371757bad" last_change="2023-05-15T08:43:24.000" action="added" name="B.40.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="62977491-cc95-40dc-8264-d293dd21181a" ecc_calc="true">
+				<curve type="line">
+					<point x="21.6" y="0" z="3"></point>
+					<point x="21.6" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<bar name="B.41" type="beam" guid="e24e99ff-3f54-4d50-9827-5673b5b34d16" last_change="2023-05-15T08:43:24.000" action="added">
+			<bar_part guid="d6b425bd-30af-4ffa-8151-d14e8bc3b6eb" last_change="2023-05-15T08:43:24.000" action="added" name="B.41.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="bbfb2d60-ac27-4803-b7da-c92e8a783837" ecc_calc="true">
+				<curve type="line">
+					<point x="24" y="0" z="3"></point>
+					<point x="24" y="0" z="0"></point>
+				</curve>
+				<local-y x="0" y="1" z="0"></local-y>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<connectivity m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true"></connectivity>
+				<eccentricity use_default_physical_alignment="true">
+					<analytical x="0" y="0" z="0"></analytical>
+					<analytical x="0" y="0" z="0"></analytical>
+					<physical x="0" y="0" z="0"></physical>
+					<physical x="0" y="0" z="0"></physical>
+				</eccentricity>
+				<end></end>
+			</bar_part>
+			<end></end>
+		</bar>
+		<loads>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="5d568900-6b30-473c-8851-0a9ff1ff4c81" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="0" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="11652e03-ec9d-44b4-9805-f6645d1e51d4" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="2.4" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="7f387ff8-a3c8-4292-b928-c782093e84cb" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="4.8" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="81ed6463-23a5-4836-a5b2-39b3470bc226" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="7.2" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="e497cc29-6b05-499b-ab09-7f33fe9814f7" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="9.6" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="d7b84c29-3701-4cb3-bd42-9f86e0fba4de" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="12" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="66d982cf-5472-454d-863b-8a9d05ca5133" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="14.4" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="6261df70-42da-4353-b811-da7345c0d027" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="16.8" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="8dd68424-76e3-4654-a50f-c4fe3958d39a" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="19.2" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="0eb76f77-8829-4eb1-8f48-5df5482e32df" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="21.6" y="0" z="3" val="50"></load>
+			</point_load>
+			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="6ee3b606-23f4-4a2b-b99e-bf8c281d2031" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+				<direction x="0" y="0" z="-1"></direction>
+				<load x="24" y="0" z="3" val="50"></load>
+			</point_load>
+			<load_case type="dead_load" duration_class="permanent" guid="a5e1e407-75fa-4e6f-bea7-d8e0387553cd" last_change="2023-05-15T08:43:24.000" action="added" name="DL"></load_case>
+			<load_case type="static" duration_class="permanent" guid="267de0bc-4adf-4c39-9344-a61b3bb71b84" last_change="2023-05-15T08:43:24.000" action="added" name="LL"></load_case>
+			<load_combination guid="a67fda32-bbb7-4b33-ad8d-09d2a1d2273b" last_change="2023-05-15T08:43:24.000" action="added" name="ULS_DL" type="ultimate_ordinary">
+				<load_case guid="a5e1e407-75fa-4e6f-bea7-d8e0387553cd" gamma="1.35"></load_case>
+				<load_case guid="267de0bc-4adf-4c39-9344-a61b3bb71b84" gamma="1.5"></load_case>
+			</load_combination>
+		</loads>
+		<supports>
+			<point_support guid="1ca5737c-77b9-4363-8170-3622f1581273" last_change="2023-05-15T08:43:24.000" action="added" name="S.1">
+				<group>
+					<local_x x="1" y="0" z="0"></local_x>
+					<local_y x="0" y="1" z="0"></local_y>
+					<rigidity>
+						<motions x_neg="10000000000" x_pos="10000000000" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000"></motions>
+						<rotations x_neg="10000000000" x_pos="10000000000" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000"></rotations>
+					</rigidity>
+				</group>
+				<position x="0" y="0" z="3"></position>
+			</point_support>
+			<point_support guid="0c0091f8-0956-4e28-b1ce-59efc07485f6" last_change="2023-05-15T08:43:24.000" action="added" name="S.2">
+				<group>
+					<local_x x="1" y="0" z="0"></local_x>
+					<local_y x="0" y="1" z="0"></local_y>
+					<rigidity>
+						<motions x_neg="10000000000" x_pos="10000000000" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000"></motions>
+						<rotations x_neg="10000000000" x_pos="10000000000" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000"></rotations>
+					</rigidity>
+				</group>
+				<position x="0" y="0" z="0"></position>
+			</point_support>
+			<point_support guid="23e6192c-eac3-49f7-b4e7-62166112ba0d" last_change="2023-05-15T08:43:24.000" action="added" name="S.3">
+				<group>
+					<local_x x="1" y="0" z="0"></local_x>
+					<local_y x="0" y="1" z="0"></local_y>
+					<rigidity>
+						<motions x_neg="10000000000" x_pos="10000000000" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000"></motions>
+						<rotations x_neg="10000000000" x_pos="10000000000" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000"></rotations>
+					</rigidity>
+				</group>
+				<position x="24" y="0" z="3"></position>
+			</point_support>
+			<point_support guid="be5c3f41-0770-44b1-b71a-a9e4a1e22ea9" last_change="2023-05-15T08:43:24.000" action="added" name="S.4">
+				<group>
+					<local_x x="1" y="0" z="0"></local_x>
+					<local_y x="0" y="1" z="0"></local_y>
+					<rigidity>
+						<motions x_neg="10000000000" x_pos="10000000000" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000"></motions>
+						<rotations x_neg="10000000000" x_pos="10000000000" y_neg="10000000000" y_pos="10000000000" z_neg="10000000000" z_pos="10000000000"></rotations>
+					</rigidity>
+				</group>
+				<position x="24" y="0" z="0"></position>
+			</point_support>
+		</supports>
+	</entities>
+	<sections>
+		<section guid="e1d2a173-87bb-4adb-867e-856322b28c1d" last_change="1970-01-01T00:00:00.000" action="added" name="Steel sections, IPE, 80" type="custom" fd-mat="0" fd_name_code="Steel sections" fd_name_type="IPE" fd_name_size="80">
+			<region_group>
+				<region>
+					<contour>
+						<edge type="line">
+							<point x="-0.023" y="-0.04" z="0"></point>
+							<point x="0.023" y="-0.04" z="0"></point>
+							<normal x="0" y="1" z="0"></normal>
+						</edge>
+						<edge type="line">
+							<point x="0.023" y="-0.04" z="0"></point>
+							<point x="0.023" y="-0.0348" z="0"></point>
+							<normal x="0" y="0" z="0"></normal>
+						</edge>
+						<edge type="line">
+							<point x="0.023" y="-0.0348" z="0"></point>
+							<point x="0.0069" y="-0.0348" z="0"></point>
+							<normal x="0" y="-1" z="0"></normal>
+						</edge>
+						<edge radius="0.005" start_angle="0" end_angle="1.5707963267949" type="arc">
+							<point x="0.0069" y="-0.0298" z="0"></point>
+							<normal x="0" y="0" z="-1"></normal>
+							<x_axis x="0" y="-1" z="0"></x_axis>
+						</edge>
+						<edge type="line">
+							<point x="0.0019" y="-0.0298" z="0"></point>
+							<point x="0.0019" y="0.0298" z="0"></point>
+							<normal x="-1" y="0" z="0"></normal>
+						</edge>
+						<edge radius="0.005" start_angle="0" end_angle="1.57079632679491" type="arc">
+							<point x="0.0069" y="0.0298" z="0"></point>
+							<normal x="0" y="0" z="-1"></normal>
+							<x_axis x="-1" y="0" z="0"></x_axis>
+						</edge>
+						<edge type="line">
+							<point x="0.0069" y="0.0348" z="0"></point>
+							<point x="0.023" y="0.0348" z="0"></point>
+							<normal x="0" y="1" z="0"></normal>
+						</edge>
+						<edge type="line">
+							<point x="0.023" y="0.0348" z="0"></point>
+							<point x="0.023" y="0.04" z="0"></point>
+							<normal x="0" y="0" z="0"></normal>
+						</edge>
+						<edge type="line">
+							<point x="0.023" y="0.04" z="0"></point>
+							<point x="-0.023" y="0.04" z="0"></point>
+							<normal x="0" y="-1" z="0"></normal>
+						</edge>
+						<edge type="line">
+							<point x="-0.023" y="0.04" z="0"></point>
+							<point x="-0.023" y="0.0348" z="0"></point>
+							<normal x="0" y="0" z="0"></normal>
+						</edge>
+						<edge type="line">
+							<point x="-0.023" y="0.0348" z="0"></point>
+							<point x="-0.0069" y="0.0348" z="0"></point>
+							<normal x="0" y="1" z="0"></normal>
+						</edge>
+						<edge radius="0.005" start_angle="0" end_angle="1.57079632679489" type="arc">
+							<point x="-0.0069" y="0.0298" z="0"></point>
+							<normal x="0" y="0" z="-1"></normal>
+							<x_axis x="0" y="1" z="0"></x_axis>
+						</edge>
+						<edge type="line">
+							<point x="-0.0019" y="0.0298" z="0"></point>
+							<point x="-0.0019" y="-0.0298" z="0"></point>
+							<normal x="1" y="0" z="0"></normal>
+						</edge>
+						<edge radius="0.005" start_angle="0" end_angle="1.5707963267949" type="arc">
+							<point x="-0.0069" y="-0.0298" z="0"></point>
+							<normal x="0" y="0" z="-1"></normal>
+							<x_axis x="1" y="0" z="0"></x_axis>
+						</edge>
+						<edge type="line">
+							<point x="-0.0069" y="-0.0348" z="0"></point>
+							<point x="-0.023" y="-0.0348" z="0"></point>
+							<normal x="0" y="-1" z="0"></normal>
+						</edge>
+						<edge type="line">
+							<point x="-0.023" y="-0.0348" z="0"></point>
+							<point x="-0.023" y="-0.04" z="0"></point>
+							<normal x="0" y="0" z="0"></normal>
+						</edge>
+					</contour>
+				</region>
+			</region_group>
+			<end></end>
+		</section>
+		<complex_section guid="12ff7f9f-8fef-4a5a-a21f-90680f2dedc7" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="4291300a-bde4-4186-aa72-67f394a23cd6" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="562f4963-0e6b-4649-a427-dfd1d2a27fbf" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="49d632b1-fd9d-43b4-93e7-59b52d5477c2" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="dc6f1fae-a411-4b36-9150-5ceaa87c92e5" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="5f8c9654-8b05-48d6-bbf3-b8a05855e525" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="7da93132-dc51-4803-87e7-105b8024c2bd" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="f912f7e9-9cca-4bf0-81c9-69059f6f52f7" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="5840b4dc-8b2b-44d5-945d-ad88401a44f9" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="244b43a4-3197-4b27-8a02-1e32d8c8d5e6" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="99671a51-5974-46b9-ae02-5750b089d389" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="fd31bd31-3ba7-4d55-a624-c844e222da31" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="ef877cb0-fdee-4698-9fe5-24032be8e406" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="e14c921f-e9d4-4086-98ae-63dd67d85b8c" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="a657a530-1255-4bd7-a349-df690ddea285" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="1e6b05a8-2239-4fde-8974-4e174c58b3ef" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="354c8e0a-beae-4c16-a8b9-40d6d820fc42" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="d4b4ea47-8f2c-4db7-a14f-a3832c361aea" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="51fc856c-804c-4c4d-8ae1-8727f8ed2419" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="2b36ebc5-87e9-42bc-abe3-81b41ff1944e" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="2dccbbd6-9755-45b6-a410-ac44a8b4b5dd" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="73bed488-fcd8-42ff-b884-c67cb38ce785" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="9b023da8-eb72-4052-8727-7cd0a3d21a87" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="0abc75d6-6c18-4547-b9fe-846625fb1212" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="ada1b950-7589-447b-9df7-e35ae07e664a" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="77ed36e1-96cd-4181-a3fd-3ce2e5a79344" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="7000d5dc-11f8-4e8f-b460-a6636c681e5a" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="36f34df2-c3d2-43e0-bc34-25e86a7b1b3d" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="29d814d5-7fd7-4192-88d5-386f46514886" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="2d074078-bec9-477c-a7ee-c3f4730c04bd" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="af8b907c-d707-43ad-9395-d35c07899b4a" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="492ecfc1-192c-4fc8-959c-850c867fd2fe" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="9f0d4bc4-08be-4c03-a0d6-2490f3d79509" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="27f14d20-4515-40e6-998f-d3baaae0c335" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="4cb63d8e-d52b-4842-9332-ef6093d65bea" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="931472b1-45bd-4b0c-bfa0-729abe8ba2de" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="1feafba1-1d58-41af-8cf3-3ab9b18d870f" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="47262202-9216-4981-9054-4826ebea121a" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="69d33bdb-3480-48b0-a0aa-a76ec1d3437c" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="62977491-cc95-40dc-8264-d293dd21181a" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+		<complex_section guid="bbfb2d60-ac27-4803-b7da-c92e8a783837" last_change="1970-01-01T00:00:00.000" action="added">
+			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+			<section pos="1" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
+				<ecc x="0" y="0" z="0"></ecc>
+				<end></end>
+			</section>
+		</complex_section>
+	</sections>
+	<materials>
+		<material guid="cd7f26ab-8fb6-41e3-8207-2021120a48d4" last_change="2012-03-26T09:23:34.000" action="added" standard="EC" country="S" name="S 235">
+			<steel mass="7.85" E_0="210000000" E_1="210000000" E_2="210000000" nu_0="0.3" nu_1="0.3" nu_2="0.3" alfa_0="0.000012" alfa_1="0.000012" alfa_2="0.000012" G_0="80769230.7692308" G_1="80769230.7692308" G_2="80769230.7692308" Fyk16="235" Fyk40="235" Fyk63="215" Fyk80="215" Fyk100="215" Fyk150="215" Fyk200="215" Fyk250="215" Fyk400="215" Fuk3="360" Fuk40="360" Fuk100="360" Fuk150="360" Fuk250="360" Fuk400="360" gammaM0_0="1" gammaM0_1="1" gammaM1_0="1" gammaM1_1="1" gammaM2_0="1.2" gammaM2_1="1" gammaM5_0="1" gammaM5_1="1" Ek="210000" Ed_0="210000" Ed_1="210000" nu="0.3" G="80769" alfa="0.000012"></steel>
+		</material>
+	</materials>
+	<end></end>
+</database>
