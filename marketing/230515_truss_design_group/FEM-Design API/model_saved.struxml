@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- (c) StruSoft 2012-2021, http://www.strusoft.com -->
-<database struxml_version="01.00.000" source_software="FEM-Design 22.00.002" start_time="1970-01-01T00:00:00.000" end_time="2023-05-15T08:43:24.000" guid="9b335cbc-b9f7-4a86-9c1e-544831207fdc" convertid="00000000-0000-0000-0000-000000000000" standard="EC" country="S" xmlns="urn:strusoft">
+<database struxml_version="01.00.000" source_software="FEM-Design 22.00.002" start_time="1970-01-01T00:00:00.000" end_time="2023-05-29T13:49:28.000" guid="a1eab412-63d7-4361-83af-d439253b0c99" convertid="00000000-0000-0000-0000-000000000000" standard="EC" country="S" xmlns="urn:strusoft">
 	<entities>
-		<bar name="B.1" type="beam" guid="6cb1866d-77cc-4323-bc6c-81582088630e" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="9f374bde-ee7e-47e5-93ad-1533fa7533e7" last_change="2023-05-15T08:43:24.000" action="added" name="B.1.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="12ff7f9f-8fef-4a5a-a21f-90680f2dedc7" ecc_calc="true">
+		<bar name="B.1" type="beam" guid="2e6a94ab-5e0c-4510-81fc-c55bbedcb5f9" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="7ad9ca09-7bea-4d74-82ec-ebbdfe1c7575" last_change="2023-05-29T13:49:28.000" action="added" name="B.1.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="50037055-a2cb-4f66-a569-faf5a6241c98" ecc_calc="true">
 				<curve type="line">
 					<point x="0" y="0" z="3"></point>
 					<point x="2.4" y="0" z="3"></point>
@@ -21,8 +21,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.2" type="beam" guid="f2d1d5da-f096-409a-8bd6-6ad9e3997368" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="90a879b4-ad07-48c7-8e7e-66cb52dafacd" last_change="2023-05-15T08:43:24.000" action="added" name="B.2.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="4291300a-bde4-4186-aa72-67f394a23cd6" ecc_calc="true">
+		<bar name="B.2" type="beam" guid="d2b13f64-757a-4255-a510-fea4a529b1c6" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="4af3342f-7f91-425d-b1aa-1408f22d408b" last_change="2023-05-29T13:49:28.000" action="added" name="B.2.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="4750ca4d-d5fa-4a0a-80d2-6a99e5678a8e" ecc_calc="true">
 				<curve type="line">
 					<point x="2.4" y="0" z="3"></point>
 					<point x="4.8" y="0" z="3"></point>
@@ -40,8 +40,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.3" type="beam" guid="22783734-3fb8-454b-a5d1-5417d3937496" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="03b4ed8f-0512-45f6-9fc8-51ff417173e4" last_change="2023-05-15T08:43:24.000" action="added" name="B.3.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="562f4963-0e6b-4649-a427-dfd1d2a27fbf" ecc_calc="true">
+		<bar name="B.3" type="beam" guid="c2c7d911-dcfe-4b62-bbe0-aa76dba0e70a" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="58cea5a1-bfdd-4e0f-95f2-8441f1b52fdf" last_change="2023-05-29T13:49:28.000" action="added" name="B.3.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="45b588df-bdd2-4b25-b567-308633c7df73" ecc_calc="true">
 				<curve type="line">
 					<point x="4.8" y="0" z="3"></point>
 					<point x="7.2" y="0" z="3"></point>
@@ -59,8 +59,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.4" type="beam" guid="34db0ff4-0ea2-4490-993b-f88b25297f95" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="8c246eb4-af6d-412e-a914-10d6fb2d5a10" last_change="2023-05-15T08:43:24.000" action="added" name="B.4.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="49d632b1-fd9d-43b4-93e7-59b52d5477c2" ecc_calc="true">
+		<bar name="B.4" type="beam" guid="e6c14bd7-217e-4b4a-ae04-be27ffa66771" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="59911c29-b52c-4ecf-98fb-63b0c5f9b204" last_change="2023-05-29T13:49:28.000" action="added" name="B.4.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="27dda598-d093-48b0-a9b7-17ff9ae82061" ecc_calc="true">
 				<curve type="line">
 					<point x="7.2" y="0" z="3"></point>
 					<point x="9.6" y="0" z="3"></point>
@@ -78,8 +78,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.5" type="beam" guid="8636119d-f9cb-4e42-a5e1-0d2896b7a7d5" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="e9b20093-c624-47f8-b533-fad503614505" last_change="2023-05-15T08:43:24.000" action="added" name="B.5.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="dc6f1fae-a411-4b36-9150-5ceaa87c92e5" ecc_calc="true">
+		<bar name="B.5" type="beam" guid="9a18a736-8d26-416c-8399-079495003be4" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="6bcae18b-c155-4a5f-ba57-e2be59151d3e" last_change="2023-05-29T13:49:28.000" action="added" name="B.5.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="6ebe2d5e-dfa6-4346-9461-ac98f494c2b5" ecc_calc="true">
 				<curve type="line">
 					<point x="9.6" y="0" z="3"></point>
 					<point x="12" y="0" z="3"></point>
@@ -97,8 +97,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.6" type="beam" guid="6e7e021d-20ce-473b-b4a2-e929f3365485" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="89d115d4-6a71-4cec-ae5e-2099031aa72a" last_change="2023-05-15T08:43:24.000" action="added" name="B.6.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="5f8c9654-8b05-48d6-bbf3-b8a05855e525" ecc_calc="true">
+		<bar name="B.6" type="beam" guid="0e528612-5863-4a66-8ebe-d1ea9c476193" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="f9b6402b-f433-4047-b778-4e790e78d53c" last_change="2023-05-29T13:49:28.000" action="added" name="B.6.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="7e3a4bde-adb7-469e-8318-f8ca53a9f1f6" ecc_calc="true">
 				<curve type="line">
 					<point x="12" y="0" z="3"></point>
 					<point x="14.4" y="0" z="3"></point>
@@ -116,8 +116,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.7" type="beam" guid="ca2eb3ce-9423-469a-a563-b3cb9749e866" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="9a8c726a-4c93-41dd-93d4-3ece5e3fbfff" last_change="2023-05-15T08:43:24.000" action="added" name="B.7.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="7da93132-dc51-4803-87e7-105b8024c2bd" ecc_calc="true">
+		<bar name="B.7" type="beam" guid="4e7cdf43-1f11-4363-b159-662145ff2c0d" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="b620d95a-221e-444b-b40c-415f26ed6603" last_change="2023-05-29T13:49:28.000" action="added" name="B.7.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="330539a2-53cc-49d8-9746-caf4f2a6f5dc" ecc_calc="true">
 				<curve type="line">
 					<point x="14.4" y="0" z="3"></point>
 					<point x="16.8" y="0" z="3"></point>
@@ -135,8 +135,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.8" type="beam" guid="4b1d99df-5420-4181-9a1d-55f590d3a619" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="4ece354c-d8b4-4598-8870-478fe06e5f23" last_change="2023-05-15T08:43:24.000" action="added" name="B.8.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="f912f7e9-9cca-4bf0-81c9-69059f6f52f7" ecc_calc="true">
+		<bar name="B.8" type="beam" guid="54cdcc9e-0f35-4f1f-9947-68d1e2c2f6d4" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="729918a7-d28b-4126-bfbb-4191d8cf7e9b" last_change="2023-05-29T13:49:28.000" action="added" name="B.8.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="7b8d043d-a9e3-4f47-ab0f-5e9b42a310b0" ecc_calc="true">
 				<curve type="line">
 					<point x="16.8" y="0" z="3"></point>
 					<point x="19.2" y="0" z="3"></point>
@@ -154,8 +154,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.9" type="beam" guid="e1356703-326a-46eb-a51c-6005616b88ef" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="68632bc7-e436-49f5-aba7-094489e8e6e1" last_change="2023-05-15T08:43:24.000" action="added" name="B.9.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="5840b4dc-8b2b-44d5-945d-ad88401a44f9" ecc_calc="true">
+		<bar name="B.9" type="beam" guid="e07bf275-7a46-4553-9f2d-84017c8e0b32" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="6342bd09-b343-4cec-9c3e-96b74e507d62" last_change="2023-05-29T13:49:28.000" action="added" name="B.9.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="2a376259-53b0-4e26-9a10-2cc5f9a75132" ecc_calc="true">
 				<curve type="line">
 					<point x="19.2" y="0" z="3"></point>
 					<point x="21.6" y="0" z="3"></point>
@@ -173,8 +173,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.10" type="beam" guid="a0cf6229-ffde-4f03-9ac7-716884579a82" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="5f147d62-afe5-4a04-994b-fbcf53ab0406" last_change="2023-05-15T08:43:24.000" action="added" name="B.10.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="244b43a4-3197-4b27-8a02-1e32d8c8d5e6" ecc_calc="true">
+		<bar name="B.10" type="beam" guid="c2731b8c-ec59-4a91-811e-94cebeeedc18" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="df4689b4-f797-4b90-b115-64fc55eda5ad" last_change="2023-05-29T13:49:28.000" action="added" name="B.10.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="3c89fce6-56d1-4350-8a8a-a4b9f7678418" ecc_calc="true">
 				<curve type="line">
 					<point x="21.6" y="0" z="3"></point>
 					<point x="24" y="0" z="3"></point>
@@ -192,8 +192,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.11" type="beam" guid="bb7f4c56-fefa-4495-9f5f-ba9550c9f961" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="afe332e6-bb5d-4aeb-9a1f-ddc0f1c375cf" last_change="2023-05-15T08:43:24.000" action="added" name="B.11.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="99671a51-5974-46b9-ae02-5750b089d389" ecc_calc="true">
+		<bar name="B.11" type="beam" guid="bc4eccfa-7e64-4104-9d69-be1ba60cf559" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="299e6659-b82f-4767-856a-cedede0d9322" last_change="2023-05-29T13:49:28.000" action="added" name="B.11.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="43bdfffd-7a76-4ef4-b21b-f1b6b67bba67" ecc_calc="true">
 				<curve type="line">
 					<point x="0" y="0" z="0"></point>
 					<point x="2.4" y="0" z="0"></point>
@@ -211,8 +211,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.12" type="beam" guid="942f4384-3d14-48c3-961b-55603e3dbc3b" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="30e58126-4335-4717-89f1-02ffa57445b5" last_change="2023-05-15T08:43:24.000" action="added" name="B.12.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="fd31bd31-3ba7-4d55-a624-c844e222da31" ecc_calc="true">
+		<bar name="B.12" type="beam" guid="25d221e5-573e-4cbc-80ab-0d04c6274570" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="c61db5ae-a446-4d25-a463-624955945abb" last_change="2023-05-29T13:49:28.000" action="added" name="B.12.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="c1ccb312-627f-4e4b-82e6-59a744593243" ecc_calc="true">
 				<curve type="line">
 					<point x="2.4" y="0" z="0"></point>
 					<point x="4.8" y="0" z="0"></point>
@@ -230,8 +230,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.13" type="beam" guid="4023e1ce-b140-4d57-8f05-01f44eb09abb" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="1334f983-c9f1-45e0-9dc8-3ab68317c0b0" last_change="2023-05-15T08:43:24.000" action="added" name="B.13.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="ef877cb0-fdee-4698-9fe5-24032be8e406" ecc_calc="true">
+		<bar name="B.13" type="beam" guid="c7131a83-3fe6-41ed-8699-9a5c495fc92e" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="49bf1761-9ba8-44c0-b1d1-a709234601ad" last_change="2023-05-29T13:49:28.000" action="added" name="B.13.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="bf4cfd7c-9eed-48a5-b288-8253f0cb9afc" ecc_calc="true">
 				<curve type="line">
 					<point x="4.8" y="0" z="0"></point>
 					<point x="7.2" y="0" z="0"></point>
@@ -249,8 +249,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.14" type="beam" guid="9d74d61f-3914-4ff8-b514-055742cfee5f" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="0fd377b7-9753-4eb0-ae9e-e4a1a2f0d0ab" last_change="2023-05-15T08:43:24.000" action="added" name="B.14.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="e14c921f-e9d4-4086-98ae-63dd67d85b8c" ecc_calc="true">
+		<bar name="B.14" type="beam" guid="00e8e797-1ed2-431b-b613-2f8db2fa18db" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="14d9a65f-54a9-4540-b89a-6da54174c89c" last_change="2023-05-29T13:49:28.000" action="added" name="B.14.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="e7393daf-c499-45c1-8187-891d049b7912" ecc_calc="true">
 				<curve type="line">
 					<point x="7.2" y="0" z="0"></point>
 					<point x="9.6" y="0" z="0"></point>
@@ -268,8 +268,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.15" type="beam" guid="397cd487-ddf9-4bb2-a504-33c09d35d32b" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="27a846b7-884f-4993-9ff6-7f3d235f1d23" last_change="2023-05-15T08:43:24.000" action="added" name="B.15.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="a657a530-1255-4bd7-a349-df690ddea285" ecc_calc="true">
+		<bar name="B.15" type="beam" guid="e02aee5b-80ff-4853-9430-a23b6dec3357" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="b1a7ff97-0cd9-457b-9dfd-feecbe6aa707" last_change="2023-05-29T13:49:28.000" action="added" name="B.15.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="7169f9b2-5e53-426f-b862-018e99fe3a2a" ecc_calc="true">
 				<curve type="line">
 					<point x="9.6" y="0" z="0"></point>
 					<point x="12" y="0" z="0"></point>
@@ -287,8 +287,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.16" type="beam" guid="952c3313-007a-4b54-8b17-60f134a32ebd" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="b8ea8d7b-438c-4cf2-ae23-9ff971944292" last_change="2023-05-15T08:43:24.000" action="added" name="B.16.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="1e6b05a8-2239-4fde-8974-4e174c58b3ef" ecc_calc="true">
+		<bar name="B.16" type="beam" guid="7dbed742-b415-428f-8c9f-ca39965db99a" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="c0668550-f539-4eba-9c27-824d66e12dca" last_change="2023-05-29T13:49:28.000" action="added" name="B.16.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="5dedc115-efa6-4b8b-a787-c5611ea734c6" ecc_calc="true">
 				<curve type="line">
 					<point x="12" y="0" z="0"></point>
 					<point x="14.4" y="0" z="0"></point>
@@ -306,8 +306,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.17" type="beam" guid="701aa095-d3a4-49b0-b8e9-b45f3a861942" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="8fb3fb41-a778-4b0a-bc63-77df098be34f" last_change="2023-05-15T08:43:24.000" action="added" name="B.17.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="354c8e0a-beae-4c16-a8b9-40d6d820fc42" ecc_calc="true">
+		<bar name="B.17" type="beam" guid="52fca70e-2380-4247-bc3d-b40e1af4ba8b" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="f72958be-f3d3-43d3-af96-13b144ac3a89" last_change="2023-05-29T13:49:28.000" action="added" name="B.17.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="b00eabfb-6bb3-4d59-b008-7d34c927ddb1" ecc_calc="true">
 				<curve type="line">
 					<point x="14.4" y="0" z="0"></point>
 					<point x="16.8" y="0" z="0"></point>
@@ -325,8 +325,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.18" type="beam" guid="c80bc5d7-6b6a-475c-852e-61f2f1961793" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="f79f9670-d4e6-4597-bbd1-eb27915632b1" last_change="2023-05-15T08:43:24.000" action="added" name="B.18.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="d4b4ea47-8f2c-4db7-a14f-a3832c361aea" ecc_calc="true">
+		<bar name="B.18" type="beam" guid="0615d97d-c17c-4003-a5f0-ead0fd22685f" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="4b5056b6-5916-47be-a3a6-d0c36dc7cd30" last_change="2023-05-29T13:49:28.000" action="added" name="B.18.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="d62e7c2e-19c1-445e-af5b-3688250b7bf0" ecc_calc="true">
 				<curve type="line">
 					<point x="16.8" y="0" z="0"></point>
 					<point x="19.2" y="0" z="0"></point>
@@ -344,8 +344,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.19" type="beam" guid="2baa25f0-2e01-48ea-b37e-a96a5f0bee7e" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="9b7287fe-1001-4198-9432-89f89daeae64" last_change="2023-05-15T08:43:24.000" action="added" name="B.19.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="51fc856c-804c-4c4d-8ae1-8727f8ed2419" ecc_calc="true">
+		<bar name="B.19" type="beam" guid="85155cc9-53f9-4c9d-ba2b-195bb841e548" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="aa14f3cb-506b-44c6-ae9c-1c2d0fdc38f4" last_change="2023-05-29T13:49:28.000" action="added" name="B.19.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="d23addc6-ba34-49f6-840b-2ae139692ddf" ecc_calc="true">
 				<curve type="line">
 					<point x="19.2" y="0" z="0"></point>
 					<point x="21.6" y="0" z="0"></point>
@@ -363,8 +363,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.20" type="beam" guid="4be332b1-5e76-40b2-83b8-346eb55d55f1" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="47f42e23-199f-4f63-a75c-01753c75a228" last_change="2023-05-15T08:43:24.000" action="added" name="B.20.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="2b36ebc5-87e9-42bc-abe3-81b41ff1944e" ecc_calc="true">
+		<bar name="B.20" type="beam" guid="e77e9cc8-266b-44d2-a5bf-02e02a7ca5ef" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="78163dc9-ca70-4a90-939d-2ec9768fca83" last_change="2023-05-29T13:49:28.000" action="added" name="B.20.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="1d3b4859-2666-44d6-aab4-2854642b47b5" ecc_calc="true">
 				<curve type="line">
 					<point x="21.6" y="0" z="0"></point>
 					<point x="24" y="0" z="0"></point>
@@ -382,8 +382,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.21" type="beam" guid="060ce061-66fd-4f83-9fe7-918a8f51f5b4" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="178f64db-5e7b-4ca6-97ac-cca23b2852ba" last_change="2023-05-15T08:43:24.000" action="added" name="B.21.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="2dccbbd6-9755-45b6-a410-ac44a8b4b5dd" ecc_calc="true">
+		<bar name="B.21" type="beam" guid="b7982767-11ea-4a35-8609-07a41e0f67ba" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="e8da9055-15a2-4270-8426-abad0d00259c" last_change="2023-05-29T13:49:28.000" action="added" name="B.21.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="177077e4-55a1-47c7-be3a-162ed20112d5" ecc_calc="true">
 				<curve type="line">
 					<point x="2.4" y="0" z="3"></point>
 					<point x="0" y="0" z="0"></point>
@@ -401,8 +401,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.22" type="beam" guid="ae1f27fc-61e7-47ef-90e8-0f3993a4bbf9" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="145556ea-ed59-4e88-9e91-cfcac4a00f62" last_change="2023-05-15T08:43:24.000" action="added" name="B.22.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="73bed488-fcd8-42ff-b884-c67cb38ce785" ecc_calc="true">
+		<bar name="B.22" type="beam" guid="6e80db20-ccf7-4a18-80bc-87190d6ba53a" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="3005599b-2d11-4327-9f14-6296f6973768" last_change="2023-05-29T13:49:28.000" action="added" name="B.22.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="adad3a39-9a27-42c9-91a8-463fb91aa374" ecc_calc="true">
 				<curve type="line">
 					<point x="4.8" y="0" z="3"></point>
 					<point x="2.4" y="0" z="0"></point>
@@ -420,8 +420,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.23" type="beam" guid="f10a66c3-56c9-4fa7-9942-f5cfd7cddd28" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="4cb5e7d7-cdc3-4671-85b8-7752dcd40c8c" last_change="2023-05-15T08:43:24.000" action="added" name="B.23.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="9b023da8-eb72-4052-8727-7cd0a3d21a87" ecc_calc="true">
+		<bar name="B.23" type="beam" guid="b8a29e32-6fa7-4e3f-8695-5c69d2cc0b38" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="d6883960-612e-4f84-a790-fa1e60c814e9" last_change="2023-05-29T13:49:28.000" action="added" name="B.23.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="c9c41c8f-5c0d-4944-a6a6-12c2da74d521" ecc_calc="true">
 				<curve type="line">
 					<point x="7.2" y="0" z="3"></point>
 					<point x="4.8" y="0" z="0"></point>
@@ -439,8 +439,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.24" type="beam" guid="35dcccb8-6dcd-4732-aea1-750a10bc4198" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="c18a168a-bdc7-4bf0-be11-ec1758f20309" last_change="2023-05-15T08:43:24.000" action="added" name="B.24.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="0abc75d6-6c18-4547-b9fe-846625fb1212" ecc_calc="true">
+		<bar name="B.24" type="beam" guid="e8981476-300f-4430-bc6a-753670e5a1ea" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="3c734ec8-94d3-4151-bb4c-97dd6efbd501" last_change="2023-05-29T13:49:28.000" action="added" name="B.24.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="de7dd1f5-f2eb-41f6-9bdf-a51cdff40a02" ecc_calc="true">
 				<curve type="line">
 					<point x="9.6" y="0" z="3"></point>
 					<point x="7.2" y="0" z="0"></point>
@@ -458,8 +458,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.25" type="beam" guid="ae026de6-487d-4d98-9a96-8448b43d5cd4" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="ed322b03-f2a5-44bd-afa1-5c7a0ae35a4c" last_change="2023-05-15T08:43:24.000" action="added" name="B.25.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="ada1b950-7589-447b-9df7-e35ae07e664a" ecc_calc="true">
+		<bar name="B.25" type="beam" guid="c7e4b5c7-ebc9-4ed0-83e5-c04c65972269" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="086c3702-6a6a-446b-a40f-ddb4bbd007d0" last_change="2023-05-29T13:49:28.000" action="added" name="B.25.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="ef3a501a-a057-41f1-8254-35e4e54cca33" ecc_calc="true">
 				<curve type="line">
 					<point x="12" y="0" z="3"></point>
 					<point x="9.6" y="0" z="0"></point>
@@ -477,8 +477,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.26" type="beam" guid="e66bd290-91b1-4d44-899c-bb504efff9b5" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="3b6ba5cb-61ff-4e3f-84c3-167b687ac3f1" last_change="2023-05-15T08:43:24.000" action="added" name="B.26.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="77ed36e1-96cd-4181-a3fd-3ce2e5a79344" ecc_calc="true">
+		<bar name="B.26" type="beam" guid="3f0e6473-8312-4f4c-b738-58d0b9b26ebd" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="0e8ec362-11b3-4521-8fed-f016b15b6c22" last_change="2023-05-29T13:49:28.000" action="added" name="B.26.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="a09545f6-0719-4382-9441-6b26828cddce" ecc_calc="true">
 				<curve type="line">
 					<point x="14.4" y="0" z="0"></point>
 					<point x="12" y="0" z="3"></point>
@@ -496,8 +496,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.27" type="beam" guid="37ebecd9-28c3-41ee-9c14-ab5801285986" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="f07c99e5-7e7d-4c68-b1f6-c17ef396f163" last_change="2023-05-15T08:43:24.000" action="added" name="B.27.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="7000d5dc-11f8-4e8f-b460-a6636c681e5a" ecc_calc="true">
+		<bar name="B.27" type="beam" guid="8517d193-180e-4609-9397-09a69c30f3c9" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="b30c0c27-7538-4774-9894-1a1ac863c0b3" last_change="2023-05-29T13:49:28.000" action="added" name="B.27.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="b50946ec-a6e4-4007-a0e6-ea04867613ce" ecc_calc="true">
 				<curve type="line">
 					<point x="16.8" y="0" z="0"></point>
 					<point x="14.4" y="0" z="3"></point>
@@ -515,8 +515,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.28" type="beam" guid="20a023f2-47f9-4ea3-a65d-d1f37c459019" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="a47da818-be1e-4331-a76b-1717ca666e53" last_change="2023-05-15T08:43:24.000" action="added" name="B.28.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="36f34df2-c3d2-43e0-bc34-25e86a7b1b3d" ecc_calc="true">
+		<bar name="B.28" type="beam" guid="8fcc881c-fb46-4f39-87ce-d9317b76c44d" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="a4953226-10bf-4b2a-814c-143e92f9d619" last_change="2023-05-29T13:49:28.000" action="added" name="B.28.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="ee7e895d-ba83-4b09-a11b-4d842315aa84" ecc_calc="true">
 				<curve type="line">
 					<point x="19.2" y="0" z="0"></point>
 					<point x="16.8" y="0" z="3"></point>
@@ -534,8 +534,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.29" type="beam" guid="aabcd91a-a913-4483-b4fc-3f61476ba849" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="a33a69eb-ab84-4abd-a034-a7a8a1bbc617" last_change="2023-05-15T08:43:24.000" action="added" name="B.29.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="29d814d5-7fd7-4192-88d5-386f46514886" ecc_calc="true">
+		<bar name="B.29" type="beam" guid="8feaa99e-ac5d-4676-897f-633a9323d9da" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="681aaf6b-d45f-4c75-9624-45fb16638559" last_change="2023-05-29T13:49:28.000" action="added" name="B.29.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="d2eb4df1-46ea-4e34-ab0c-279f980ba3d4" ecc_calc="true">
 				<curve type="line">
 					<point x="21.6" y="0" z="0"></point>
 					<point x="19.2" y="0" z="3"></point>
@@ -553,8 +553,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.30" type="beam" guid="dfa086ae-185c-4a61-af1e-77635d4c075c" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="58450907-cd37-4592-b663-3eb9c1fb7042" last_change="2023-05-15T08:43:24.000" action="added" name="B.30.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="2d074078-bec9-477c-a7ee-c3f4730c04bd" ecc_calc="true">
+		<bar name="B.30" type="beam" guid="e8309b7d-7837-4337-9cbb-b570b005c75f" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="743eaed5-008b-4855-8eaf-f32009ee77fe" last_change="2023-05-29T13:49:28.000" action="added" name="B.30.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="70aa6978-4217-4ac3-8e14-9ec6823c493d" ecc_calc="true">
 				<curve type="line">
 					<point x="24" y="0" z="0"></point>
 					<point x="21.6" y="0" z="3"></point>
@@ -572,8 +572,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.31" type="beam" guid="87c9f12c-9f67-4454-b223-8bd3431a38c5" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="2201f3a3-2b02-4a03-b06a-3ba87034b9fe" last_change="2023-05-15T08:43:24.000" action="added" name="B.31.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="af8b907c-d707-43ad-9395-d35c07899b4a" ecc_calc="true">
+		<bar name="B.31" type="beam" guid="aed784e2-dcd2-4b72-9c00-5c3cdb54fe3a" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="0e3c6dcc-d156-4b99-b53e-511e17686c1e" last_change="2023-05-29T13:49:28.000" action="added" name="B.31.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="5c4fbf3c-d11f-4b82-b950-8f9109c6babc" ecc_calc="true">
 				<curve type="line">
 					<point x="0" y="0" z="3"></point>
 					<point x="0" y="0" z="0"></point>
@@ -591,8 +591,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.32" type="beam" guid="4ae41bfa-95b5-4c2a-b6b8-e4b733818a46" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="3537243d-facd-4413-8a74-2d14b601bbbf" last_change="2023-05-15T08:43:24.000" action="added" name="B.32.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="492ecfc1-192c-4fc8-959c-850c867fd2fe" ecc_calc="true">
+		<bar name="B.32" type="beam" guid="53c5c20f-a7ae-4ff1-8c9e-4635f7a54518" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="3226b5ee-cca0-4c20-a6f0-9bd087538ff8" last_change="2023-05-29T13:49:28.000" action="added" name="B.32.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="c7b4d487-609f-4dc0-a475-30c61879a6c9" ecc_calc="true">
 				<curve type="line">
 					<point x="2.4" y="0" z="3"></point>
 					<point x="2.4" y="0" z="0"></point>
@@ -610,8 +610,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.33" type="beam" guid="96a4ecb2-65f7-46b5-bd53-bbfe69127996" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="b9767162-93b6-4054-8280-5fdc3f5353e8" last_change="2023-05-15T08:43:24.000" action="added" name="B.33.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="9f0d4bc4-08be-4c03-a0d6-2490f3d79509" ecc_calc="true">
+		<bar name="B.33" type="beam" guid="8fe49ce2-1d87-48e6-81de-49416e9afb65" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="1e1c2b3c-6224-40b6-ad22-31935848c4b3" last_change="2023-05-29T13:49:28.000" action="added" name="B.33.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="1a6ccacf-b70b-4875-8e22-e53eb1c1af2a" ecc_calc="true">
 				<curve type="line">
 					<point x="4.8" y="0" z="3"></point>
 					<point x="4.8" y="0" z="0"></point>
@@ -629,8 +629,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.34" type="beam" guid="39609c79-4eae-46a0-9982-db6eefd5bd34" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="d1f19781-c747-48f6-a480-3b3fc2395e4c" last_change="2023-05-15T08:43:24.000" action="added" name="B.34.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="27f14d20-4515-40e6-998f-d3baaae0c335" ecc_calc="true">
+		<bar name="B.34" type="beam" guid="1f66400c-b31a-4601-a027-45d6ad703c1a" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="d91e0581-7552-4d12-b536-37a75e7e2a66" last_change="2023-05-29T13:49:28.000" action="added" name="B.34.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="a78b3108-e159-45f4-aeb6-451653cb59a3" ecc_calc="true">
 				<curve type="line">
 					<point x="7.2" y="0" z="3"></point>
 					<point x="7.2" y="0" z="0"></point>
@@ -648,8 +648,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.35" type="beam" guid="dcc85a69-ab37-4d4f-b578-f404279486ed" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="bb790bcd-be43-4350-82d2-b691d182f4ee" last_change="2023-05-15T08:43:24.000" action="added" name="B.35.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="4cb63d8e-d52b-4842-9332-ef6093d65bea" ecc_calc="true">
+		<bar name="B.35" type="beam" guid="a9a7ef0b-bb02-4395-8190-d79c9db6efeb" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="8ca0f437-e674-4670-9d11-dd0efb5c80c3" last_change="2023-05-29T13:49:28.000" action="added" name="B.35.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="59647360-a75f-461c-8417-4cf19e8c45bd" ecc_calc="true">
 				<curve type="line">
 					<point x="9.6" y="0" z="3"></point>
 					<point x="9.6" y="0" z="0"></point>
@@ -667,8 +667,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.36" type="beam" guid="74697634-2151-4dcd-b03a-39b0e10aec6c" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="6e0bd6cb-fe38-4192-9844-502a40a40f74" last_change="2023-05-15T08:43:24.000" action="added" name="B.36.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="931472b1-45bd-4b0c-bfa0-729abe8ba2de" ecc_calc="true">
+		<bar name="B.36" type="beam" guid="f56358a4-068b-4c41-8d70-4cda85b31895" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="c25faa48-3813-4cc1-93ed-47e3d5f3b816" last_change="2023-05-29T13:49:28.000" action="added" name="B.36.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="6507bd3a-200f-4805-b73a-3b66d691a57b" ecc_calc="true">
 				<curve type="line">
 					<point x="12" y="0" z="3"></point>
 					<point x="12" y="0" z="0"></point>
@@ -686,8 +686,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.37" type="beam" guid="8e799d2e-0dc5-48cb-b5a6-fb690fe1739f" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="c522c65e-307a-484a-8a40-db79a9d9afba" last_change="2023-05-15T08:43:24.000" action="added" name="B.37.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="1feafba1-1d58-41af-8cf3-3ab9b18d870f" ecc_calc="true">
+		<bar name="B.37" type="beam" guid="836a8020-b3ae-41ee-a1a1-ba404f110c49" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="0a96ae06-2324-4ba4-a10a-53bfb23b152b" last_change="2023-05-29T13:49:28.000" action="added" name="B.37.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="d3724b34-1910-4d3b-af18-14fb3274c438" ecc_calc="true">
 				<curve type="line">
 					<point x="14.4" y="0" z="3"></point>
 					<point x="14.4" y="0" z="0"></point>
@@ -705,8 +705,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.38" type="beam" guid="83b0a0e0-fcd1-40c3-b08f-22670c9dba73" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="4c0ca629-9fba-49b9-85e4-78121075d736" last_change="2023-05-15T08:43:24.000" action="added" name="B.38.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="47262202-9216-4981-9054-4826ebea121a" ecc_calc="true">
+		<bar name="B.38" type="beam" guid="de021e7b-91f9-4065-94a8-4d6162ad59a3" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="86a0f6e0-1101-476a-91fa-9b1acc746fb3" last_change="2023-05-29T13:49:28.000" action="added" name="B.38.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="63f452eb-df40-4576-a9d7-a732a8261155" ecc_calc="true">
 				<curve type="line">
 					<point x="16.8" y="0" z="3"></point>
 					<point x="16.8" y="0" z="0"></point>
@@ -724,8 +724,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.39" type="beam" guid="9f3d7304-f549-4f88-8cbb-721fd1c10031" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="ef41cde8-54e4-4968-a574-737b68241e27" last_change="2023-05-15T08:43:24.000" action="added" name="B.39.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="69d33bdb-3480-48b0-a0aa-a76ec1d3437c" ecc_calc="true">
+		<bar name="B.39" type="beam" guid="43178d56-a584-4db2-8a1b-b2b1962676c3" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="830ce95e-6753-4655-8e02-4309168a951a" last_change="2023-05-29T13:49:28.000" action="added" name="B.39.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="3a72f3e4-264f-4594-962b-44e20e6aa0b7" ecc_calc="true">
 				<curve type="line">
 					<point x="19.2" y="0" z="3"></point>
 					<point x="19.2" y="0" z="0"></point>
@@ -743,8 +743,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.40" type="beam" guid="592e1274-5cf9-4200-bb18-64ab37a6ed45" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="017e7ae4-c459-4d4a-b2a7-928371757bad" last_change="2023-05-15T08:43:24.000" action="added" name="B.40.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="62977491-cc95-40dc-8264-d293dd21181a" ecc_calc="true">
+		<bar name="B.40" type="beam" guid="8ae33e3d-f5af-4e6a-98b7-1150cd64e0c3" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="8d11a24f-9e5f-4396-a714-ea5381dc22fe" last_change="2023-05-29T13:49:28.000" action="added" name="B.40.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="8a79ce7a-b01a-4236-a457-662e0a51191f" ecc_calc="true">
 				<curve type="line">
 					<point x="21.6" y="0" z="3"></point>
 					<point x="21.6" y="0" z="0"></point>
@@ -762,8 +762,8 @@
 			</bar_part>
 			<end></end>
 		</bar>
-		<bar name="B.41" type="beam" guid="e24e99ff-3f54-4d50-9827-5673b5b34d16" last_change="2023-05-15T08:43:24.000" action="added">
-			<bar_part guid="d6b425bd-30af-4ffa-8151-d14e8bc3b6eb" last_change="2023-05-15T08:43:24.000" action="added" name="B.41.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="bbfb2d60-ac27-4803-b7da-c92e8a783837" ecc_calc="true">
+		<bar name="B.41" type="beam" guid="42f29257-df57-4e9b-8e5b-3adf022b837a" last_change="2023-05-29T13:49:28.000" action="added">
+			<bar_part guid="14146b61-e541-4d35-a472-790254facae7" last_change="2023-05-29T13:49:28.000" action="added" name="B.41.1" complex_material="cd7f26ab-8fb6-41e3-8207-2021120a48d4" made="rolled" complex_section="081c56a7-00e7-4a94-83ab-8fa70315eb33" ecc_calc="true">
 				<curve type="line">
 					<point x="24" y="0" z="3"></point>
 					<point x="24" y="0" z="0"></point>
@@ -782,59 +782,59 @@
 			<end></end>
 		</bar>
 		<loads>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="5d568900-6b30-473c-8851-0a9ff1ff4c81" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="d9a33349-7bda-45c7-be91-511e7fb90620" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="0" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="11652e03-ec9d-44b4-9805-f6645d1e51d4" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="9a15010f-5a0a-4929-9105-8b42d45071c1" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="2.4" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="7f387ff8-a3c8-4292-b928-c782093e84cb" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="3d446555-05b7-4dab-b7c0-b0a46721c534" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="4.8" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="81ed6463-23a5-4836-a5b2-39b3470bc226" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="647323d4-378b-4fd2-be76-86e141e07693" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="7.2" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="e497cc29-6b05-499b-ab09-7f33fe9814f7" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="e0f23dba-8aeb-48bb-a2f4-c57bb1548bd7" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="9.6" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="d7b84c29-3701-4cb3-bd42-9f86e0fba4de" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="e93116e3-1609-4fa1-b776-8402161237f2" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="12" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="66d982cf-5472-454d-863b-8a9d05ca5133" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="ab3a2068-d88b-45d2-8521-b475f0704a67" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="14.4" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="6261df70-42da-4353-b811-da7345c0d027" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="e3911830-d34e-47f2-96d2-9d74cf38586c" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="16.8" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="8dd68424-76e3-4654-a50f-c4fe3958d39a" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="9041d58c-f069-40a0-9dc2-96dfc2c72231" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="19.2" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="0eb76f77-8829-4eb1-8f48-5df5482e32df" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="79d422fc-c197-4a2e-b548-57cfe573d4e1" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="21.6" y="0" z="3" val="50"></load>
 			</point_load>
-			<point_load load_case="267de0bc-4adf-4c39-9344-a61b3bb71b84" guid="6ee3b606-23f4-4a2b-b99e-bf8c281d2031" last_change="2023-05-15T08:43:24.000" action="added" load_type="force">
+			<point_load load_case="48c0540d-d02e-459e-9981-a73dfc89332f" guid="2c0dbc75-e997-4d7b-a64e-95562999b318" last_change="2023-05-29T13:49:28.000" action="added" load_type="force">
 				<direction x="0" y="0" z="-1"></direction>
 				<load x="24" y="0" z="3" val="50"></load>
 			</point_load>
-			<load_case type="dead_load" duration_class="permanent" guid="a5e1e407-75fa-4e6f-bea7-d8e0387553cd" last_change="2023-05-15T08:43:24.000" action="added" name="DL"></load_case>
-			<load_case type="static" duration_class="permanent" guid="267de0bc-4adf-4c39-9344-a61b3bb71b84" last_change="2023-05-15T08:43:24.000" action="added" name="LL"></load_case>
-			<load_combination guid="a67fda32-bbb7-4b33-ad8d-09d2a1d2273b" last_change="2023-05-15T08:43:24.000" action="added" name="ULS_DL" type="ultimate_ordinary">
-				<load_case guid="a5e1e407-75fa-4e6f-bea7-d8e0387553cd" gamma="1.35"></load_case>
-				<load_case guid="267de0bc-4adf-4c39-9344-a61b3bb71b84" gamma="1.5"></load_case>
+			<load_case type="dead_load" duration_class="permanent" guid="2f3472fe-d3eb-4ce8-8fa6-34e4fc2c8108" last_change="2023-05-29T13:49:28.000" action="added" name="DL"></load_case>
+			<load_case type="static" duration_class="permanent" guid="48c0540d-d02e-459e-9981-a73dfc89332f" last_change="2023-05-29T13:49:28.000" action="added" name="LL"></load_case>
+			<load_combination guid="9b69afd0-d177-4039-922f-9dee17b22cc6" last_change="2023-05-29T13:49:28.000" action="added" name="ULS_DL" type="ultimate_ordinary">
+				<load_case guid="2f3472fe-d3eb-4ce8-8fa6-34e4fc2c8108" gamma="1.35"></load_case>
+				<load_case guid="48c0540d-d02e-459e-9981-a73dfc89332f" gamma="1.5"></load_case>
 			</load_combination>
 		</loads>
 		<supports>
-			<point_support guid="1ca5737c-77b9-4363-8170-3622f1581273" last_change="2023-05-15T08:43:24.000" action="added" name="S.1">
+			<point_support guid="d6197e9c-23df-491f-9a0d-3eda1cd781d5" last_change="2023-05-29T13:49:28.000" action="added" name="S.1">
 				<group>
 					<local_x x="1" y="0" z="0"></local_x>
 					<local_y x="0" y="1" z="0"></local_y>
@@ -845,7 +845,7 @@
 				</group>
 				<position x="0" y="0" z="3"></position>
 			</point_support>
-			<point_support guid="0c0091f8-0956-4e28-b1ce-59efc07485f6" last_change="2023-05-15T08:43:24.000" action="added" name="S.2">
+			<point_support guid="6afdd44f-0eb1-4212-bd16-3f5802214888" last_change="2023-05-29T13:49:28.000" action="added" name="S.2">
 				<group>
 					<local_x x="1" y="0" z="0"></local_x>
 					<local_y x="0" y="1" z="0"></local_y>
@@ -856,7 +856,7 @@
 				</group>
 				<position x="0" y="0" z="0"></position>
 			</point_support>
-			<point_support guid="23e6192c-eac3-49f7-b4e7-62166112ba0d" last_change="2023-05-15T08:43:24.000" action="added" name="S.3">
+			<point_support guid="ddc54cbb-67a0-4cd7-9c1e-a8860258c6dc" last_change="2023-05-29T13:49:28.000" action="added" name="S.3">
 				<group>
 					<local_x x="1" y="0" z="0"></local_x>
 					<local_y x="0" y="1" z="0"></local_y>
@@ -867,7 +867,7 @@
 				</group>
 				<position x="24" y="0" z="3"></position>
 			</point_support>
-			<point_support guid="be5c3f41-0770-44b1-b71a-a9e4a1e22ea9" last_change="2023-05-15T08:43:24.000" action="added" name="S.4">
+			<point_support guid="9062d5e7-3c4e-4b94-891d-427fb673b220" last_change="2023-05-29T13:49:28.000" action="added" name="S.4">
 				<group>
 					<local_x x="1" y="0" z="0"></local_x>
 					<local_y x="0" y="1" z="0"></local_y>
@@ -970,7 +970,7 @@
 			</region_group>
 			<end></end>
 		</section>
-		<complex_section guid="12ff7f9f-8fef-4a5a-a21f-90680f2dedc7" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="50037055-a2cb-4f66-a569-faf5a6241c98" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -980,7 +980,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="4291300a-bde4-4186-aa72-67f394a23cd6" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="4750ca4d-d5fa-4a0a-80d2-6a99e5678a8e" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -990,7 +990,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="562f4963-0e6b-4649-a427-dfd1d2a27fbf" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="45b588df-bdd2-4b25-b567-308633c7df73" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1000,7 +1000,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="49d632b1-fd9d-43b4-93e7-59b52d5477c2" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="27dda598-d093-48b0-a9b7-17ff9ae82061" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1010,7 +1010,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="dc6f1fae-a411-4b36-9150-5ceaa87c92e5" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="6ebe2d5e-dfa6-4346-9461-ac98f494c2b5" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1020,7 +1020,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="5f8c9654-8b05-48d6-bbf3-b8a05855e525" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="7e3a4bde-adb7-469e-8318-f8ca53a9f1f6" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1030,7 +1030,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="7da93132-dc51-4803-87e7-105b8024c2bd" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="330539a2-53cc-49d8-9746-caf4f2a6f5dc" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1040,7 +1040,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="f912f7e9-9cca-4bf0-81c9-69059f6f52f7" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="7b8d043d-a9e3-4f47-ab0f-5e9b42a310b0" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1050,7 +1050,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="5840b4dc-8b2b-44d5-945d-ad88401a44f9" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="2a376259-53b0-4e26-9a10-2cc5f9a75132" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1060,7 +1060,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="244b43a4-3197-4b27-8a02-1e32d8c8d5e6" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="3c89fce6-56d1-4350-8a8a-a4b9f7678418" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1070,7 +1070,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="99671a51-5974-46b9-ae02-5750b089d389" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="43bdfffd-7a76-4ef4-b21b-f1b6b67bba67" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1080,7 +1080,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="fd31bd31-3ba7-4d55-a624-c844e222da31" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="c1ccb312-627f-4e4b-82e6-59a744593243" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1090,7 +1090,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="ef877cb0-fdee-4698-9fe5-24032be8e406" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="bf4cfd7c-9eed-48a5-b288-8253f0cb9afc" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1100,7 +1100,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="e14c921f-e9d4-4086-98ae-63dd67d85b8c" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="e7393daf-c499-45c1-8187-891d049b7912" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1110,7 +1110,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="a657a530-1255-4bd7-a349-df690ddea285" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="7169f9b2-5e53-426f-b862-018e99fe3a2a" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1120,7 +1120,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="1e6b05a8-2239-4fde-8974-4e174c58b3ef" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="5dedc115-efa6-4b8b-a787-c5611ea734c6" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1130,7 +1130,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="354c8e0a-beae-4c16-a8b9-40d6d820fc42" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="b00eabfb-6bb3-4d59-b008-7d34c927ddb1" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1140,7 +1140,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="d4b4ea47-8f2c-4db7-a14f-a3832c361aea" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="d62e7c2e-19c1-445e-af5b-3688250b7bf0" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1150,7 +1150,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="51fc856c-804c-4c4d-8ae1-8727f8ed2419" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="d23addc6-ba34-49f6-840b-2ae139692ddf" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1160,7 +1160,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="2b36ebc5-87e9-42bc-abe3-81b41ff1944e" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="1d3b4859-2666-44d6-aab4-2854642b47b5" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1170,7 +1170,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="2dccbbd6-9755-45b6-a410-ac44a8b4b5dd" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="177077e4-55a1-47c7-be3a-162ed20112d5" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1180,7 +1180,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="73bed488-fcd8-42ff-b884-c67cb38ce785" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="adad3a39-9a27-42c9-91a8-463fb91aa374" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1190,7 +1190,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="9b023da8-eb72-4052-8727-7cd0a3d21a87" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="c9c41c8f-5c0d-4944-a6a6-12c2da74d521" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1200,7 +1200,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="0abc75d6-6c18-4547-b9fe-846625fb1212" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="de7dd1f5-f2eb-41f6-9bdf-a51cdff40a02" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1210,7 +1210,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="ada1b950-7589-447b-9df7-e35ae07e664a" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="ef3a501a-a057-41f1-8254-35e4e54cca33" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1220,7 +1220,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="77ed36e1-96cd-4181-a3fd-3ce2e5a79344" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="a09545f6-0719-4382-9441-6b26828cddce" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1230,7 +1230,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="7000d5dc-11f8-4e8f-b460-a6636c681e5a" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="b50946ec-a6e4-4007-a0e6-ea04867613ce" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1240,7 +1240,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="36f34df2-c3d2-43e0-bc34-25e86a7b1b3d" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="ee7e895d-ba83-4b09-a11b-4d842315aa84" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1250,7 +1250,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="29d814d5-7fd7-4192-88d5-386f46514886" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="d2eb4df1-46ea-4e34-ab0c-279f980ba3d4" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1260,7 +1260,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="2d074078-bec9-477c-a7ee-c3f4730c04bd" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="70aa6978-4217-4ac3-8e14-9ec6823c493d" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1270,7 +1270,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="af8b907c-d707-43ad-9395-d35c07899b4a" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="5c4fbf3c-d11f-4b82-b950-8f9109c6babc" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1280,7 +1280,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="492ecfc1-192c-4fc8-959c-850c867fd2fe" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="c7b4d487-609f-4dc0-a475-30c61879a6c9" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1290,7 +1290,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="9f0d4bc4-08be-4c03-a0d6-2490f3d79509" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="1a6ccacf-b70b-4875-8e22-e53eb1c1af2a" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1300,7 +1300,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="27f14d20-4515-40e6-998f-d3baaae0c335" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="a78b3108-e159-45f4-aeb6-451653cb59a3" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1310,7 +1310,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="4cb63d8e-d52b-4842-9332-ef6093d65bea" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="59647360-a75f-461c-8417-4cf19e8c45bd" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1320,7 +1320,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="931472b1-45bd-4b0c-bfa0-729abe8ba2de" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="6507bd3a-200f-4805-b73a-3b66d691a57b" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1330,7 +1330,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="1feafba1-1d58-41af-8cf3-3ab9b18d870f" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="d3724b34-1910-4d3b-af18-14fb3274c438" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1340,7 +1340,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="47262202-9216-4981-9054-4826ebea121a" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="63f452eb-df40-4576-a9d7-a732a8261155" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1350,7 +1350,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="69d33bdb-3480-48b0-a0aa-a76ec1d3437c" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="3a72f3e4-264f-4594-962b-44e20e6aa0b7" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1360,7 +1360,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="62977491-cc95-40dc-8264-d293dd21181a" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="8a79ce7a-b01a-4236-a457-662e0a51191f" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>
@@ -1370,7 +1370,7 @@
 				<end></end>
 			</section>
 		</complex_section>
-		<complex_section guid="bbfb2d60-ac27-4803-b7da-c92e8a783837" last_change="1970-01-01T00:00:00.000" action="added">
+		<complex_section guid="081c56a7-00e7-4a94-83ab-8fa70315eb33" last_change="1970-01-01T00:00:00.000" action="added">
 			<section pos="0" guid="e1d2a173-87bb-4adb-867e-856322b28c1d">
 				<ecc x="0" y="0" z="0"></ecc>
 				<end></end>

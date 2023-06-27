@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" start_time="1970-01-01T00:00:00.000" end_time="2023-06-08T10:28:44.830" struxml_version="01.00.000" source_software="FEM-Design API SDK 22.5.0.0" guid="12b1c621-aecd-47d6-a013-23be2100f4a3" country="S" convertid="00000000-0000-0000-0000-000000000000" standard="EC" xmlns="urn:strusoft">
+  <entities>
+    <foundations />
+    <bar last_change="2023-06-08T10:19:33.847" guid="f9d10801-0ae8-4bbe-8acb-6b515952babe" action="added" type="beam" stage="1" maxforce="0" tension="0" tensions_plasticity="false" compressions_plasticity="false">
+      <bar_part last_change="2023-06-08T10:19:33.847" guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" action="added" name="B.2.1" stage="1" complex_material="2afadd44-62bb-4db1-9ecf-86bafdba326e" ecc_calc="true" complex_section="e4b69e73-00f2-489c-998d-f9e72fd410e1">
+        <curve start_angle="0" end_angle="0" type="line" radius="0">
+          <point x="0" y="0" z="0" />
+          <point x="10" y="0" z="0" />
+          <normal x="0" y="1" z="0" />
+          <x_axis x="1" y="0" z="0" />
+        </curve>
+        <local-y x="0" y="1" z="0" />
+        <connectivity m_x_release="0" m_y_release="0" m_z_release="0" r_x_release="0" r_y_release="0" r_z_release="0" m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true" />
+        <connectivity m_x_release="0" m_y_release="0" m_z_release="0" r_x_release="0" r_y_release="0" r_z_release="0" m_x="true" m_y="true" m_z="true" r_x="true" r_y="true" r_z="true" />
+        <eccentricity use_default_physical_alignment="false">
+          <analytical x="-0" y="-0" z="-0" />
+          <analytical x="-0" y="-0" z="-0" />
+          <physical x="-0" y="-0" z="-0" />
+          <physical x="-0" y="-0" z="-0" />
+        </eccentricity>
+        <end />
+      </bar_part>
+      <end />
+    </bar>
+    <bar_reinforcement xsi:type="StirrupReinforcement" last_change="2023-06-08T10:24:47.350" guid="7f220b70-32b9-43cb-b4ca-58f594e0b6c4" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.008" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <stirrups distance="0.15" end="1.5" start="0">
+        <region>
+          <contour>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="-0.13000000000000003" y="0.28000000000000008" z="0" />
+              <point x="-0.13" y="-0.27999999999999997" z="0" />
+              <normal x="-1" y="-4.9563527885051628E-17" z="0" />
+              <x_axis x="4.9563527885051628E-17" y="-1" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="-0.13" y="-0.27999999999999997" z="0" />
+              <point x="0.12999999999999998" y="-0.27999999999999997" z="0" />
+              <normal x="-0" y="1" z="0" />
+              <x_axis x="1" y="0" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="0.12999999999999998" y="-0.27999999999999997" z="0" />
+              <point x="0.13000000000000003" y="0.27999999999999997" z="0" />
+              <normal x="1" y="-9.9127055770103268E-17" z="0" />
+              <x_axis x="9.9127055770103268E-17" y="1" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="0.13000000000000003" y="0.27999999999999997" z="0" />
+              <point x="-0.13000000000000003" y="0.28000000000000008" z="0" />
+              <normal x="-4.2700885562506012E-16" y="-1" z="0" />
+              <x_axis x="-1" y="4.2700885562506012E-16" z="0" />
+            </edge>
+          </contour>
+        </region>
+      </stirrups>
+    </bar_reinforcement>
+    <bar_reinforcement xsi:type="StirrupReinforcement" last_change="2023-06-08T10:24:47.350" guid="54d495ce-8b20-4974-a42e-b7154f032649" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.008" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <stirrups distance="0.15" end="10" start="8.5">
+        <region>
+          <contour>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="-0.13000000000000003" y="0.28000000000000008" z="0" />
+              <point x="-0.13" y="-0.27999999999999997" z="0" />
+              <normal x="-1" y="-4.9563527885051628E-17" z="0" />
+              <x_axis x="4.9563527885051628E-17" y="-1" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="-0.13" y="-0.27999999999999997" z="0" />
+              <point x="0.12999999999999998" y="-0.27999999999999997" z="0" />
+              <normal x="-0" y="1" z="0" />
+              <x_axis x="1" y="0" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="0.12999999999999998" y="-0.27999999999999997" z="0" />
+              <point x="0.13000000000000003" y="0.27999999999999997" z="0" />
+              <normal x="1" y="-9.9127055770103268E-17" z="0" />
+              <x_axis x="9.9127055770103268E-17" y="1" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="0.13000000000000003" y="0.27999999999999997" z="0" />
+              <point x="-0.13000000000000003" y="0.28000000000000008" z="0" />
+              <normal x="-4.2700885562506012E-16" y="-1" z="0" />
+              <x_axis x="-1" y="4.2700885562506012E-16" z="0" />
+            </edge>
+          </contour>
+        </region>
+      </stirrups>
+    </bar_reinforcement>
+    <bar_reinforcement xsi:type="StirrupReinforcement" last_change="2023-06-08T10:24:47.350" guid="e44d4aa4-a841-493d-8e3d-6f5eb2ea1a22" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.008" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <stirrups distance="0.3" end="8.5" start="1.5">
+        <region>
+          <contour>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="-0.13000000000000003" y="0.28000000000000008" z="0" />
+              <point x="-0.13" y="-0.27999999999999997" z="0" />
+              <normal x="-1" y="-4.9563527885051628E-17" z="0" />
+              <x_axis x="4.9563527885051628E-17" y="-1" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="-0.13" y="-0.27999999999999997" z="0" />
+              <point x="0.12999999999999998" y="-0.27999999999999997" z="0" />
+              <normal x="-0" y="1" z="0" />
+              <x_axis x="1" y="0" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="0.12999999999999998" y="-0.27999999999999997" z="0" />
+              <point x="0.13000000000000003" y="0.27999999999999997" z="0" />
+              <normal x="1" y="-9.9127055770103268E-17" z="0" />
+              <x_axis x="9.9127055770103268E-17" y="1" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="0.13000000000000003" y="0.27999999999999997" z="0" />
+              <point x="-0.13000000000000003" y="0.28000000000000008" z="0" />
+              <normal x="-4.2700885562506012E-16" y="-1" z="0" />
+              <x_axis x="-1" y="4.2700885562506012E-16" z="0" />
+            </edge>
+          </contour>
+        </region>
+      </stirrups>
+    </bar_reinforcement>
+    <bar_reinforcement xsi:type="LongitudinalBarReinforcement" last_change="2023-06-08T10:28:44.820" guid="4a9176fd-728a-40c2-a84c-ed7a9a42dcdf" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.016" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <longitudinal_bar auxiliary="false" end="5" start="0">
+        <cross-sectional_position x="-0.078000000000000014" y="-0.25999999999999995" />
+        <anchorage start="0" end="0" />
+      </longitudinal_bar>
+    </bar_reinforcement>
+    <bar_reinforcement xsi:type="LongitudinalBarReinforcement" last_change="2023-06-08T10:28:44.820" guid="2985b1b4-1681-4e8e-901c-6764e714b200" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.016" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <longitudinal_bar auxiliary="false" end="5" start="0">
+        <cross-sectional_position x="-0.026000000000000009" y="-0.25999999999999995" />
+        <anchorage start="0" end="0" />
+      </longitudinal_bar>
+    </bar_reinforcement>
+    <bar_reinforcement xsi:type="LongitudinalBarReinforcement" last_change="2023-06-08T10:28:44.820" guid="cbd29edc-71f3-4f6f-9074-2e0dc88cc8cf" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.016" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <longitudinal_bar auxiliary="false" end="5" start="0">
+        <cross-sectional_position x="0.026000000000000009" y="-0.25999999999999995" />
+        <anchorage start="0" end="0" />
+      </longitudinal_bar>
+    </bar_reinforcement>
+    <bar_reinforcement xsi:type="LongitudinalBarReinforcement" last_change="2023-06-08T10:28:44.821" guid="3f3d486d-3ecb-46a5-a498-ca4f85e12f74" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.016" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <longitudinal_bar auxiliary="false" end="5" start="0">
+        <cross-sectional_position x="0.077999999999999986" y="-0.25999999999999995" />
+        <anchorage start="0" end="0" />
+      </longitudinal_bar>
+    </bar_reinforcement>
+    <bar_reinforcement xsi:type="LongitudinalBarReinforcement" last_change="2023-06-08T10:28:44.821" guid="910bd075-08d9-45e5-af2d-16e5b1c57bcb" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.016" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <longitudinal_bar auxiliary="false" end="10" start="5">
+        <cross-sectional_position x="0.043333333333333356" y="0.26" />
+        <anchorage start="0" end="0" />
+      </longitudinal_bar>
+    </bar_reinforcement>
+    <bar_reinforcement xsi:type="LongitudinalBarReinforcement" last_change="2023-06-08T10:28:44.821" guid="3a561c41-093c-4746-ac42-607c28775c0b" action="added">
+      <base_bar guid="2b5f3315-d25a-49e3-8a85-3c76970a94e2" />
+      <wire diameter="0.016" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <longitudinal_bar auxiliary="false" end="10" start="5">
+        <cross-sectional_position x="-0.043333333333333335" y="0.26" />
+        <anchorage start="0" end="0" />
+      </longitudinal_bar>
+    </bar_reinforcement>
+    <loads />
+    <supports />
+    <advanced-fem />
+  </entities>
+  <sections>
+    <section last_change="2023-06-08T10:19:33.847" guid="e0ac931a-9ca0-418e-b4e4-a6bf2dc2918d" action="added" fd_name_code="mysizse" fd_name_type="mysizse" fd_name_size="mysizse" name="mysizse, mysizse, mysizse" type="custom" fd-mat="3">
+      <region_group>
+        <region>
+          <contour>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="-0.15" y="0.3" z="0" />
+              <point x="-0.15" y="-0.3" z="0" />
+              <normal x="0" y="-0" z="-1" />
+              <x_axis x="0" y="-1" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="-0.15" y="-0.3" z="0" />
+              <point x="0.15" y="-0.3" z="0" />
+              <normal x="-0" y="1" z="0" />
+              <x_axis x="1" y="0" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="0.15" y="-0.3" z="0" />
+              <point x="0.15" y="0.3" z="0" />
+              <normal x="0" y="-0" z="1" />
+              <x_axis x="0" y="1" z="0" />
+            </edge>
+            <edge start_angle="0" end_angle="0" type="line" radius="0">
+              <point x="0.15" y="0.3" z="0" />
+              <point x="-0.15" y="0.3" z="0" />
+              <normal x="-0" y="-1" z="0" />
+              <x_axis x="-1" y="0" z="0" />
+            </edge>
+          </contour>
+        </region>
+      </region_group>
+      <end />
+    </section>
+    <complex_section last_change="2023-06-08T10:19:33.847" guid="e4b69e73-00f2-489c-998d-f9e72fd410e1" action="added">
+      <section pos="0" guid="e0ac931a-9ca0-418e-b4e4-a6bf2dc2918d">
+        <ecc x="-0" y="-0" z="-0" />
+        <end />
+      </section>
+      <section pos="1" guid="e0ac931a-9ca0-418e-b4e4-a6bf2dc2918d">
+        <ecc x="-0" y="-0" z="-0" />
+        <end />
+      </section>
+    </complex_section>
+  </sections>
+  <materials>
+    <material last_change="2013-07-19T09:36:54.000" guid="2afadd44-62bb-4db1-9ecf-86bafdba326e" action="added" standard="EC" country="S" name="C12/15">
+      <concrete mass="2.54842" E_0="0" E_1="0" E_2="0" nu_0="0" nu_1="0" nu_2="0" alfa_0="0" alfa_1="0" alfa_2="0" G_0="0" G_1="0" G_2="0" Fck="12" Fck_cube="15" Fctk="1.1" Fctm="1.6" Ecm="27000" gammaC_0="1.5" gammaC_1="1.2" gammaCE="1.2" gammaS_0="1.15" gammaS_1="1.15" alfaCc="1" alfaCt="1" Fcd_0="0" Fcd_1="10" Fctd_0="0" Fctd_1="0.916666666666667" Ecd_0="0" Ecd_1="22500" Epsc2="0.002" Epscu2="0.0035" Epsc3="0.00175" Epscu3="0.0035" environment="0" creep="0" creep_sls="0" creep_slf="0" creep_slc="0" shrinkage="0" nu="0.2" alfa="0.00001" />
+    </material>
+  </materials>
+  <reinforcing_materials>
+    <material last_change="1970-01-01T00:00:00.000" guid="9674ad68-af88-42a7-bedd-7ee4328e404f" action="added" standard="EC" country="S" name="K500A">
+      <reinforcing_steel fyk="500" Es="200000" Epsilon_uk="0.025" Epsilon_ud="0.0225" k="1.05" />
+    </material>
+  </reinforcing_materials>
+  <line_connection_types />
+  <ptc_strand_types />
+  <end />
+</database>
