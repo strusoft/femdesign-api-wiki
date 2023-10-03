@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<database xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" start_time="1970-01-01T00:00:00.000" end_time="2023-07-28T09:59:07.281" struxml_version="01.00.000" source_software="FEM-Design API SDK 22.6.0.0" guid="87e3bd97-191b-4b8b-b5cf-e6958c5ff15c" country="S" convertid="00000000-0000-0000-0000-000000000000" standard="EC" xmlns="urn:strusoft">
+  <entities>
+    <foundations />
+    <slab last_change="2023-07-28T09:47:06.642" guid="8780e9aa-2f2c-4a8c-a233-699a75996304" action="added" type="plate" stage="1">
+      <slab_part last_change="2023-07-28T09:47:06.639" guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" action="added" name="P.2.1" ecc_crack="false" ecc_calc="false" align_offset="0" ortho_alfa="0" ortho_ratio="1" mesh_size="0" alignment="center" complex_material="2afadd44-62bb-4db1-9ecf-86bafdba326e">
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+        <thickness x="3" y="3" z="0" val="0.3" />
+        <local_pos x="3" y="3" z="0" />
+        <local_x x="1" y="0" z="0" />
+        <local_y x="0" y="1" z="0" />
+        <end />
+      </slab_part>
+      <end />
+    </slab>
+    <surface_reinforcement_parameters last_change="2023-07-28T09:59:07.273" guid="603c5e1b-250c-4b4b-987c-985740d06184" action="added" single_layer_reinforcement="false">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <center x="0" y="0" z="0" polar_system="false" />
+      <x_direction x="1" y="0" z="0" />
+      <y_direction x="0" y="1" z="0" />
+    </surface_reinforcement_parameters>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.634" guid="717cbd38-f21b-40fc-ac2c-0ffe657b7a40" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="top" cover="0.02" direction="x" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="2" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="2" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="0" z="0" />
+            <point x="2" y="2" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="2" z="0" />
+            <point x="0" y="2" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.634" guid="7b7626c4-7c1b-4e9e-9ede-33b6b6564b39" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="bottom" cover="0.02" direction="x" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="2" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="2" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="0" z="0" />
+            <point x="2" y="2" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="2" z="0" />
+            <point x="0" y="2" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.634" guid="815824fc-965a-41b1-b9df-505549ab7ddc" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="top" cover="0.02" direction="y" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="2" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="2" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="0" z="0" />
+            <point x="2" y="2" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="2" z="0" />
+            <point x="0" y="2" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.634" guid="722bcbf0-5756-4c58-a48b-26776dc8d65a" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="bottom" cover="0.02" direction="y" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="2" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="2" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="0" z="0" />
+            <point x="2" y="2" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="2" z="0" />
+            <point x="0" y="2" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.635" guid="7b8e1b2d-9291-4a05-8e09-39becccea492" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="top" cover="0.02" direction="x" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="2" z="0" />
+            <point x="4" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="2" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="2" z="0" />
+            <point x="4" y="2" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.635" guid="2b70a3f9-e8db-4428-b4ee-1bb8a7f2a727" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="bottom" cover="0.02" direction="x" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="2" z="0" />
+            <point x="4" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="2" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="2" z="0" />
+            <point x="4" y="2" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.635" guid="df95e50b-2a5d-4565-ae17-f8f5d2b59d84" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="top" cover="0.02" direction="y" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="2" z="0" />
+            <point x="4" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="2" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="2" z="0" />
+            <point x="4" y="2" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.636" guid="33c40a46-9873-4a9b-8fbc-d26bc62a4bfa" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="bottom" cover="0.02" direction="y" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="2" z="0" />
+            <point x="4" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="2" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="2" z="0" />
+            <point x="4" y="2" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.636" guid="ef2e868c-cfc9-49db-a5c4-133f7d76d748" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="top" cover="0.02" direction="x" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="6" z="0" />
+            <point x="4" y="4" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="4" z="0" />
+            <point x="6" y="4" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="4" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="4" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.636" guid="5f02d930-2fbb-4c65-83e6-2b4b99cbf818" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="bottom" cover="0.02" direction="x" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="6" z="0" />
+            <point x="4" y="4" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="4" z="0" />
+            <point x="6" y="4" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="4" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="4" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.637" guid="96fe6fce-c1de-48c6-b339-6d291f5315e7" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="top" cover="0.02" direction="y" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="6" z="0" />
+            <point x="4" y="4" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="4" z="0" />
+            <point x="6" y="4" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="4" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="4" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.637" guid="d1e77380-9aba-453b-9308-0e9d32e85e47" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="bottom" cover="0.02" direction="y" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="6" z="0" />
+            <point x="4" y="4" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="4" y="4" z="0" />
+            <point x="6" y="4" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="4" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="4" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.637" guid="2d0d6d48-18c7-4c30-abda-1f837a6bbc06" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="top" cover="0.02" direction="x" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="4" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="4" z="0" />
+            <point x="2" y="4" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="4" z="0" />
+            <point x="2" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.638" guid="3c3fd4ca-8199-443a-bb9c-ec02770b0523" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="bottom" cover="0.02" direction="x" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="4" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="4" z="0" />
+            <point x="2" y="4" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="4" z="0" />
+            <point x="2" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.638" guid="fbfb07ff-fd66-4b91-9fba-25223f4db1dd" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="top" cover="0.02" direction="y" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="4" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="4" z="0" />
+            <point x="2" y="4" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="4" z="0" />
+            <point x="2" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:58:33.638" guid="9058f4d9-d6e9-4e0d-883a-2c742fbd433a" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.15" face="bottom" cover="0.02" direction="y" />
+      <wire diameter="0.012" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="4" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="4" z="0" />
+            <point x="2" y="4" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="4" z="0" />
+            <point x="2" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="2" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:59:04.020" guid="84fd63cb-4732-4b56-aec3-2d6179851ea4" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.3" face="top" cover="0.02" direction="x" />
+      <wire diameter="0.008" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:59:04.021" guid="49c4b825-1356-4f02-a5f4-d2103602e99b" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.3" face="bottom" cover="0.02" direction="x" />
+      <wire diameter="0.008" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:59:04.021" guid="32c25f5b-4cf4-4c53-8ec9-696632b4f104" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.3" face="top" cover="0.02" direction="y" />
+      <wire diameter="0.008" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <surface_reinforcement last_change="2023-07-28T09:59:04.021" guid="f61644ad-ce55-41d5-bf7c-6edb63a103ea" action="added">
+      <base_shell guid="8fa8dfdc-9da0-469f-a2df-d6cf16d35af2" />
+      <surface_reinforcement_parameters guid="603c5e1b-250c-4b4b-987c-985740d06184" />
+      <straight space="0.3" face="bottom" cover="0.02" direction="y" />
+      <wire diameter="0.008" reinforcing_material="9674ad68-af88-42a7-bedd-7ee4328e404f" />
+      <region>
+        <contour>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="6" z="0" />
+            <point x="0" y="0" z="0" />
+            <normal x="0" y="-0" z="-1" />
+            <x_axis x="0" y="-1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="0" y="0" z="0" />
+            <point x="6" y="0" z="0" />
+            <normal x="-0" y="1" z="0" />
+            <x_axis x="1" y="0" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="0" z="0" />
+            <point x="6" y="6" z="0" />
+            <normal x="0" y="-0" z="1" />
+            <x_axis x="0" y="1" z="0" />
+          </edge>
+          <edge start_angle="0" end_angle="0" type="line" radius="0">
+            <point x="6" y="6" z="0" />
+            <point x="0" y="6" z="0" />
+            <normal x="-0" y="-1" z="0" />
+            <x_axis x="-1" y="0" z="0" />
+          </edge>
+        </contour>
+      </region>
+    </surface_reinforcement>
+    <loads />
+    <supports />
+    <advanced-fem />
+  </entities>
+  <sections />
+  <materials>
+    <material last_change="2013-07-19T09:36:54.000" guid="2afadd44-62bb-4db1-9ecf-86bafdba326e" action="added" standard="EC" country="S" name="C12/15">
+      <concrete mass="2.54842" E_0="0" E_1="0" E_2="0" nu_0="0" nu_1="0" nu_2="0" alfa_0="0" alfa_1="0" alfa_2="0" G_0="0" G_1="0" G_2="0" Fck="12" Fck_cube="15" Fctk="1.1" Fctm="1.6" Ecm="27000" gammaC_0="1.5" gammaC_1="1.2" gammaCE="1.2" gammaS_0="1.15" gammaS_1="1.15" alfaCc="1" alfaCt="1" Fcd_0="0" Fcd_1="10" Fctd_0="0" Fctd_1="0.916666666666667" Ecd_0="0" Ecd_1="22500" Epsc2="0.002" Epscu2="0.0035" Epsc3="0.00175" Epscu3="0.0035" environment="0" creep="0" creep_sls="0" creep_slf="0" creep_slc="0" shrinkage="0" nu="0.2" alfa="0.00001" />
+    </material>
+  </materials>
+  <reinforcing_materials>
+    <material last_change="1970-01-01T00:00:00.000" guid="9674ad68-af88-42a7-bedd-7ee4328e404f" action="added" standard="EC" country="S" name="K500A">
+      <reinforcing_steel fyk="500" Es="200000" Epsilon_uk="0.025" Epsilon_ud="0.0225" k="1.05" />
+    </material>
+  </reinforcing_materials>
+  <line_connection_types />
+  <ptc_strand_types />
+  <end />
+</database>
